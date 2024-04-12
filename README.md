@@ -1,2 +1,2 @@
-# intelligent_robotics
-Repository for implementation of intelligent robotics
+# Robotica Inteligente Equipo 5
+Repositorio del equipo 5 para la implementacion de la materia robotica inteligente

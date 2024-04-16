@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mini_challenge_1/mini_challenge_1.egg-info
+writing ../../build/mini_challenge_1/mini_challenge_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/mini_challenge_1/mini_challenge_1.egg-info/dependency_links.txt
+writing entry points to ../../build/mini_challenge_1/mini_challenge_1.egg-info/entry_points.txt
+writing requirements to ../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt
+writing top-level names to ../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt
+writing manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+reading manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build
+creating /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib
+creating /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1
+copying mini_challenge_1/__init__.py -> /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1
+copying mini_challenge_1/Controller.py -> /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1
+running install
+running install_lib
+creating /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1
+copying /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1/__init__.py -> /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1
+copying /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1/Controller.py -> /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1
+byte-compiling /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/Controller.py to Controller.cpython-310.pyc
+running install_data
+creating /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/ament_index
+creating /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/ament_index/resource_index
+creating /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/ament_index/resource_index/packages
+copying resource/mini_challenge_1 -> /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/ament_index/resource_index/packages
+copying package.xml -> /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/mini_challenge_1
+running install_egg_info
+Copying ../../build/mini_challenge_1/mini_challenge_1.egg-info to /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Controller script to /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1
+writing list of installed files to '/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log'

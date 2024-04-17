@@ -1,0 +1,26 @@
+[1.097s] Invoking command in '/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1': PYTHONPATH=/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/prefix_override:/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mini_challenge_1 build --build-base /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build install --record /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log --single-version-externally-managed
+[1.419s] running egg_info
+[1.420s] writing ../../build/mini_challenge_1/mini_challenge_1.egg-info/PKG-INFO
+[1.421s] writing dependency_links to ../../build/mini_challenge_1/mini_challenge_1.egg-info/dependency_links.txt
+[1.421s] writing entry points to ../../build/mini_challenge_1/mini_challenge_1.egg-info/entry_points.txt
+[1.421s] writing requirements to ../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt
+[1.421s] writing top-level names to ../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt
+[1.424s] reading manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+[1.425s] writing manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.426s] running build_py
+[1.426s] copying mini_challenge_1/Controller.py -> /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1
+[1.426s] running install
+[1.427s] running install_lib
+[1.428s] copying /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1/Controller.py -> /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1
+[1.429s] byte-compiling /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/Controller.py to Controller.cpython-310.pyc
+[1.430s] running install_data
+[1.431s] running install_egg_info
+[1.432s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.433s]   warnings.warn(
+[1.433s] removing '/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.434s] Copying ../../build/mini_challenge_1/mini_challenge_1.egg-info to /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info
+[1.437s] running install_scripts
+[1.467s] Installing Controller script to /robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1
+[1.468s] writing list of installed files to '/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log'
+[1.521s] Invoked command in '/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1' returned '0': PYTHONPATH=/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/prefix_override:/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mini_challenge_1 build --build-base /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build install --record /robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log --single-version-externally-managed

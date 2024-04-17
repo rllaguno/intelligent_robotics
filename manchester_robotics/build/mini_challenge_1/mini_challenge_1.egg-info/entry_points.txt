@@ -1,0 +1,3 @@
+[console_scripts]
+Controller = mini_challenge_1.Controller:main
+

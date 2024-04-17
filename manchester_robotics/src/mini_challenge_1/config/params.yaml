@@ -1,0 +1,44 @@
+PathGenerator:
+  ros__parameters:
+    path_num: 0
+    no_path:
+      point_1:
+        distance: 0
+        angle: 0
+    square:
+      point_1:
+        distance: 1
+        angle: 0
+      point_2:
+        distance: 1
+        angle: 90
+      point_3:
+        distance: 1
+        angle: 90
+      point_4:
+        distance: 1
+        angle: 90
+    triangle:
+      point_1:
+        distance: 1
+        angle: 0
+      point_2:
+        distance: 1
+        angle: 120
+      point_3:
+        distance: 1
+        angle: 120
+    zigzag:
+      point_1:
+        distance: 0.5
+        angle: 0
+      point_2:
+        distance: 0.5
+        angle: 135
+      point_3:
+        distance: 0.5
+        angle: 270
+      point_4:
+        distance: 0.5
+        angle: 90
+

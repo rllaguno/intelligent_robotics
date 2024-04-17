@@ -3,9 +3,6 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Float32 
 from signal_msg.msg import SignalDecomposed 
-
-
-
 import yaml
 
 class My_Publisher(Node):
@@ -21,52 +18,48 @@ class My_Publisher(Node):
 
         self.msg_vel = Twist()
 
-        self.desired_distance = 0
-        self.desired_angle = 0
+        #self.desired_distance = 0
+        #self.desired_angle = 0
+    
+        flagA = True
+        flagD = False
+        n = 0
+        i = 0
+
+        self.a = [0, 90, 180, 270]
+        self.d = [200, 400, 600, 800]
 
     def timer_callback_controller(self):
         self.actual_distance = self.actual_distance + (0.05 * ((self.left_velocity + self.right_velocity) / 2))
         self.actual_angle = self.actual_angle + (0.05 * ((self.left_velocity - self.right_velocity) / 0.18))
 
-        if (self.desired_distance == 0) :
-            self.msg_vel.linear.x = 0.25
-            self.vel.publish(self.msg_vel)
-
-            if (self.actual_distance == 10) :
-                self.msg_vel.linear.x = 0.5 #aqui va velocidad q se ocupa para completar recoorido en tiempo q dice el usuario
-                self.vel.publish(self.msg_vel)
-                self.desired_distance = self.d1
-                self.desired_angle = self.a1
-
-        if (self.actual_distance == self.desired_distance) :
-            self.msg_vel.linear.x = 0.25
-            self.vel.publish(self.msg_vel)
-
-        if (self.path == 0) :
-            if (self.actual_distance == self.desired_distance+10) :
-                self.msg_vel.linear.x = 0.0
+        if (flagA):
+            if (self.actual_angle == self.a[i]):
+                self.msg_vel.angular.z = 0.0
+                self.msg_vel.linear.x = 0.25
+                self.vel.publish(self.msg_vel) 
+                i += 1
+                flagD = True
+                flagA = False
+            else: 
                 self.msg_vel.angular.z = 0.2
                 self.vel.publish(self.msg_vel)
-                if (self.actual_angle == self.desired_angle and self.actual_distance <= self.desired_distance+20 ) :
-                    self.msg_vel.linear.x = 0.25
-                    self.msg_vel.angular.z = 0.0
-                    self.vel.publish(self.msg_vel) 
-                self.msg_vel.linear.x = 0.5 #aqui va velocidad q se ocupa para completar recoorido en tiempo q dice el usuario
+
+        if (flagD):
+            if (self.actual_distance >= 15 and self.actual_distance < 20):
+                self.msg_vel.linear.x = 0.5 #aqui va velocidad q se ocupa para completar recorrido en tiempo q dice el usuario
                 self.vel.publish(self.msg_vel)
-                self.desired_distance = self.d2
-                self.desired_angle = self.a2
-
-
-    def desired_params_callback(self,msg):
-        self.path = msg.path
-        self.d1 = msg.distance1
-        self.d2 = msg.distance2
-        self.d3 = msg.distance3
-        self.d4 = msg.distance4
-        self.a1 = msg.angle1
-        self.a2 = msg.angle2
-        self.a3 = msg.angle3
-        self.a4 = msg.angle4
+            
+            if (self.array_dd[n] -15 >= self.actual_distance and self.array_dd[n] -10 < self.actual_distance):
+                self.msg_vel.linear.x = 0.25
+                self.vel.publish(self.msg_vel)
+            
+            if (self.array_dd[n] >= self.actual_distance and self.array_dd[n] < self.actual_distance + 10):
+                self.msg_vel.linear.x = 0.0
+                self.vel.publish(self.msg_vel)
+                flagA = True
+                flagD = False
+                n += 1
 
     def timer_callback_l(self,msg):
         self.left_velocity = msg.data
@@ -82,4 +75,4 @@ def main(args=None):
     rclpy.shutdown()
 
 if __name__ == '__main__':
-    main()
+        main()

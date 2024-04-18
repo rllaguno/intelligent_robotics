@@ -1,46 +1,72 @@
-import numpy as np
 import cv2
 
-# Tamaño del patrón de calibración
-pattern_size = (3, 3)  # Filas x Columnas de esquinas interiores
+# Constants for the known dimensions of the ID card in centimeters
+KNOWN_WIDTH = 8.5
+KNOWN_HEIGHT = 5.25
 
-# Generar puntos de calibración en el patrón
-objp = np.zeros((np.prod(pattern_size), 3), dtype=np.float32)
-objp[:, :2] = np.mgrid[0:pattern_size[0], 0:pattern_size[1]].T.reshape(-1, 2)
+# Initialize your known distance from the camera to the ID card
+# when the reference image was taken
+knownDistance = 33.5/2  # for example, 30 cm
 
-# Lista para almacenar puntos de calibración detectados en imágenes
-objpoints = []  # 3D puntos en el mundo real
-imgpoints = []  # 2D puntos en la imagen (plano)
 
-# Leer imágenes de la cámara o cargar imágenes de archivo
-img = cv2.imread('calib2.png')  # Cambia 'sample_image.jpg' al nombre de tu archivo de imagen
+# Function to find the ID card contour in the image
+def find_id_card_contour(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+    edged = cv2.Canny(blurred, 75, 200)
 
-# Encuentra las esquinas del patrón en las imágenes
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # Convertir a escala de grises
-ret, corners = cv2.findChessboardCorners(gray, pattern_size, None)
+    contours, _ = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    contours = sorted(contours, key=cv2.contourArea, reverse=True)[:5]
 
-# Si se encontraron las esquinas, agregar puntos de calibración
-if ret == True:
-    objpoints.append(objp)
-    imgpoints.append(corners)
+    for c in contours:
+        peri = cv2.arcLength(c, True)
+        approx = cv2.approxPolyDP(c, 0.02 * peri, True)
+        if len(approx) == 4:
+            return approx
+    return None
 
-    # Dibujar y mostrar las esquinas
-    img = cv2.drawChessboardCorners(img, pattern_size, corners, ret)
-    cv2.imshow('img', img)
-    cv2.waitKey(0)
+# Function to calculate the distance to the ID card using triangle similarity
+def distance_to_camera(knownWidth, knownHeight, focalLength, perWidth, perHeight):
+    distance_w = (knownWidth * focalLength) / perWidth
+    distance_h = (knownHeight * focalLength) / perHeight
+    return distance_w, distance_h
 
-# Calibrar la cámara
-ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, gray.shape[::-1], None, None)
+# Load the reference image from where the path is specified
+reference_image = cv2.imread('C:\\Users\\rodri\\Documents\\Robotics\\robotica_inteligente_eq5\\vision\\challenge_01\\calib.jpg')
+id_card_contour = find_id_card_contour(reference_image)
 
-# Guardar la matriz de calibración y los coeficientes de distorsión si es necesario
-# Esto puede ser útil para usar la cámara calibrada en otras aplicaciones
-# np.savez('calibration_data.npz', mtx=mtx, dist=dist)
+focalLength = 0
 
-# Deshacer la distorsión en una imagen de ejemplo
-undistorted_img = cv2.undistort(img, mtx, dist, None, mtx)
+if id_card_contour is not None:
+    x, y, w, h = cv2.boundingRect(id_card_contour)
+    focalLength = (w * knownDistance) / KNOWN_WIDTH
 
-# Mostrar imágenes
-cv2.imshow('Original Image', img)
-cv2.imshow('Undistorted Image', undistorted_img)
-cv2.waitKey(0)
+# Check if we have calculated the focal length
+if focalLength == 0:
+    raise ValueError("Could not calculate the focal length.")
+
+# Initialize video capture from the camera
+camera = cv2.VideoCapture(0)
+
+while True:
+    ret, frame = camera.read()
+    if not ret:
+        break
+
+    id_card_contour = find_id_card_contour(frame)
+
+    if id_card_contour is not None:
+        x, y, w, h = cv2.boundingRect(id_card_contour)
+        distance_w, distance_h = distance_to_camera(KNOWN_WIDTH, KNOWN_HEIGHT, focalLength, w, h)
+
+        cv2.putText(frame, f"{distance_w:.2f} cm", (frame.shape[1] - 400, frame.shape[0] - 20), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 255, 0), 3)
+        cv2.drawContours(frame, [id_card_contour], -1, (0, 255, 0), 2)
+
+    cv2.imshow("Frame", frame)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+camera.release()
 cv2.destroyAllWindows()

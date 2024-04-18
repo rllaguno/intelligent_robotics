@@ -1,3 +1,4 @@
 [console_scripts]
 Controller = mini_challenge_1.Controller:main
+PathGenerator = mini_challenge_1.PathGenerator:main
 

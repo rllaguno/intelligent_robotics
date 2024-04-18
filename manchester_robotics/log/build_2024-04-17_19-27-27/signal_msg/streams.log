@@ -1,0 +1,68 @@
+[0.013s] Invoking command in '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1:/opt/ros/humble /usr/bin/cmake /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg
+[1.219s] -- The C compiler identification is GNU 11.4.0
+[1.946s] -- The CXX compiler identification is GNU 11.4.0
+[2.009s] -- Detecting C compiler ABI info
+[2.332s] -- Detecting C compiler ABI info - done
+[2.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.344s] -- Detecting C compile features
+[2.346s] -- Detecting C compile features - done
+[2.351s] -- Detecting CXX compiler ABI info
+[2.489s] -- Detecting CXX compiler ABI info - done
+[2.499s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.499s] -- Detecting CXX compile features
+[2.500s] -- Detecting CXX compile features - done
+[2.582s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.887s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.282s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[3.605s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.640s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.682s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.714s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.907s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.206s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[4.206s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.206s]   signal_msg --arguments-file
+[4.206s]   /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg/rosidl_adapter__arguments__signal_msg.json
+[4.207s]   --output-dir
+[4.207s]   /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg/rosidl_adapter/signal_msg
+[4.207s]   --output-file
+[4.207s]   /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg/rosidl_adapter/signal_msg.idls)
+[4.207s]   returned error code 1:
+[4.207s] 
+[4.207s]   Error processing 'input32 path' of 'signal_msg/SignalDecomposed':
+[4.208s]   ''input32' is an invalid message name.  It should have the pattern
+[4.208s]   '^[A-Z][A-Za-z0-9]*$''
+[4.208s] 
+[4.208s]   Traceback (most recent call last):
+[4.208s] 
+[4.208s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[4.208s]       return _run_code(code, main_globals, None,
+[4.209s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[4.209s]       exec(code, run_globals)
+[4.209s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.209s]       sys.exit(main())
+[4.209s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[4.209s]       abs_idl_file = convert_to_idl(
+[4.209s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.210s]       return convert_msg_to_idl(
+[4.210s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.210s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.210s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[4.210s]       Type(type_string, context_package_name=pkg_name),
+[4.210s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[4.210s]       super(Type, self).__init__(
+[4.211s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[4.211s]       raise InvalidResourceName(
+[4.211s] 
+[4.211s]   rosidl_adapter.parser.InvalidResourceName: 'input32' is an invalid message
+[4.211s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.211s] 
+[4.211s] Call Stack (most recent call first):
+[4.211s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.212s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[4.212s] 
+[4.212s] [0m
+[4.212s] -- Configuring incomplete, errors occurred!
+[4.212s] See also "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg/CMakeFiles/CMakeOutput.log".
+[4.217s] Invoked command in '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1:/opt/ros/humble /usr/bin/cmake /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/signal_msg -DCMAKE_INSTALL_PREFIX=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg

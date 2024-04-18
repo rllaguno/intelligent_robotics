@@ -8,7 +8,10 @@ setup.py
 ../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt
 ../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt
 ../../build/mini_challenge_1/mini_challenge_1.egg-info/zip-safe
+config/params.yaml
+launch/mini_launch.py
 mini_challenge_1/Controller.py
+mini_challenge_1/PathGenerator.py
 mini_challenge_1/__init__.py
 resource/mini_challenge_1
 test/test_copyright.py

@@ -65,8 +65,7 @@ class My_Publisher(Node):
             self.desired_msg.angle2 = self.get_parameter('square.point_2.angle').get_parameter_value().double_value
             self.desired_msg.angle3 = self.get_parameter('square.point_3.angle').get_parameter_value().double_value
             self.desired_msg.angle4 = self.get_parameter('square.point_4.angle').get_parameter_value().double_value
-            self.publsished = self.desired_pub.publish(self.desired_msg)
-            print(self.publsished)
+            self.desired_pub.publish(self.desired_msg)
 
         elif self.path == 2:
             #self.get_logger().info('square')

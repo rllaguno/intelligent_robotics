@@ -1,6 +1,6 @@
 PathGenerator:
   ros__parameters:
-    path_num: 1
+    path_num: 0
     no_path:
       point_1:
         distance: 0.0

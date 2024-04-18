@@ -21,9 +21,6 @@ class My_Publisher(Node):
         self.subR = self.create_subscription(Float32, "/VelocityEncR", self.timer_callback_r, qos_profile)
 
         self.msg_vel = Twist()
-
-        #self.desired_distance = 0
-        #self.desired_angle = 0
     
         self.flagA = True
         self.flagD = False
@@ -52,6 +49,7 @@ class My_Publisher(Node):
         self.a2 = msg.angle2 
         self.a3 = msg.angle3
         self.a4 = msg.angle4
+        self.get_logger().info(f"Received parameters: Path={self.path}, Distances={self.d1}, {self.d2}, {self.d3}, {self.d4}, Angles={self.a1}, {self.a2}, {self.a3}, {self.a4}")
 
         self.a = [self.a1, self.a2, self.a3, self.a4]
         self.d = [self.d1, self.d2, self.d3, self.d4]
@@ -60,48 +58,42 @@ class My_Publisher(Node):
 
         self.actual_distance = self.actual_distance + ((0.05 * ((self.left_velocity + self.right_velocity) / 2))*0.1)
         self.actual_angle = self.actual_angle + ((0.05 * ((self.left_velocity - self.right_velocity) / 0.18))*-5.7269)
-        #print(self.actual_distance)
-        if (self.path != 0):
-            if (self.flagA):
-                print("angle")
-                print(self.actual_angle)
-                if (self.actual_angle <= self.a[self.i] + 5 and self.actual_angle >= self.a[self.i] - 10):
-                    print("parar giro")
-                    self.msg_vel.angular.z = 0.0
-                    self.flagA = False
-                    #self.desang = self.desang + 90
-                    print("i: " )
-                    print(self.i)
-                    self.flagD = True
-                    print("avanzar primera vez")
-                    self.msg_vel.linear.x = 0.2
-                    self.vel.publish(self.msg_vel) 
-                    #self.actual_angle = 0
-                    self.i = self.i + 1
-                    if (self.i <= 4):self.i=0
-                else: 
-                    print("girar")
-                    self.msg_vel.angular.z = 0.15
-                    self.vel.publish(self.msg_vel)
-            elif (self.flagD):
-                print("distance")
-                print(self.actual_distance)
+        if (self.flagA):
+            print("angle")
+            print(self.actual_angle)
+            if (self.actual_angle <= self.a[self.i] + 5 and self.actual_angle >= self.a[self.i] - 10):
+                print("parar giro")
+                self.msg_vel.angular.z = 0.0
+                self.flagA = False
+                print("i: " )
+                print(self.i)
+                self.flagD = True
+                print("avanzar primera vez")
+                self.msg_vel.linear.x = 0.2
+                self.vel.publish(self.msg_vel) 
+                self.i = self.i + 1
+                #if (self.i <= 4):self.i=0
+            else: 
+                print("girar")
+                self.msg_vel.angular.z = 0.15
                 self.vel.publish(self.msg_vel)
-                
-                if(self.actual_distance <= self.d[self.n] + .5 and self.actual_distance >= self.d[self.n]- 0.5):
-                #if (self.d[n] >= self.actual_distance and self.d[n] < self.actual_distance + 0.10):
-                    print("frenar distance")
-                    self.msg_vel.linear.x = 0.0
-                    self.vel.publish(self.msg_vel)
-                    self.flagA = True
-                    self.flagD = False
-                    #self.desdis = self.desdis + 2.0
-                    print("n: " )
-                    print(self.n)
-                    self.n = self.n+1
-                    if (self.n <= 4):self.n=0
-                    
 
+        elif (self.flagD):
+            print("distance")
+            print(self.actual_distance)
+            self.vel.publish(self.msg_vel)
+            
+            if(self.actual_distance <= self.d[self.n] + .5 and self.actual_distance >= self.d[self.n]- 0.5):
+                print("frenar distance")
+                self.msg_vel.linear.x = 0.0
+                self.vel.publish(self.msg_vel)
+                self.flagA = True
+                self.flagD = False
+                print("n: " )
+                print(self.n)
+                self.n = self.n+1
+                #if (self.n <= 4):self.n=0
+                
     def timer_callback_l(self,msg):
         self.left_velocity = msg.data
 

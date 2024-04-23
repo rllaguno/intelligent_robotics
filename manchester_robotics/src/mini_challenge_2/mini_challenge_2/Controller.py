@@ -4,10 +4,11 @@ from geometry_msgs.msg import Twist, Pose2D, Point
 import rclpy.qos
 from std_msgs.msg import Float32
 import yaml
+import math 
 
 class My_Publisher(Node):
-    def __init__(self):
-        super().__init__('Controller')
+    def _init_(self):
+        super()._init_('Controller')
         self.odom = self.create_publisher(Twist, '/cmd_vel', 10)
         
         qos_profile = rclpy.qos.qos_profile_sensor_data
@@ -23,6 +24,41 @@ class My_Publisher(Node):
         self.msg_point = Point()
     
     def timer_callback_controller(self):
+
+        if ((self.msg_point.x > self.msg_pose.x) and (self.msg_point.y > self.msg_pose.y)):
+            opuesto = self.msg_point.y - self.msg_pose.y
+            adyacente = self.msg_point.x - self.msg_pose.x
+            angleRadians = math.atan(opuesto/adyacente)
+            angleTarget = math.degrees(angleRadians)
+
+        elif ((self.msg_point.x > self.msg_pose.x) and (self.msg_point.y < self.msg_pose.y)):
+            opuesto = self.msg_point.x - self.msg_pose.x
+            adyacente = self.msg_pose.y - self.msg_point.y 
+            angleRadians = math.atan(opuesto/adyacente)
+            angleTarget = math.degrees(angleRadians) + 270
+
+        elif ((self.msg_point.x < self.msg_pose.x) and (self.msg_point.y > self.msg_pose.y)):
+            opuesto = self.msg_pose.x - self.msg_point.x
+            adyacente = self.msg_point.y - self.msg_pose.y
+            angleRadians = math.atan(opuesto/adyacente)
+            angleTarget = math.degrees(angleRadians) + 90
+
+        elif ((self.msg_point.x < self.msg_pose.x) and (self.msg_point.y < self.msg_pose.y)):
+            opuesto = self.msg_pose.y - self.msg_point.y 
+            adyacente = self.msg_pose.x - self.msg_point.x
+            angleRadians = math.atan(opuesto/adyacente)
+            angleTarget = math.degrees(angleRadians) + 180
+
+
+        self.errorTheta =  angleTarget - self.msg_pose.theta 
+
+        if (self.errorTheta > 180):
+            self.errorTheta = self.errorTheta - 360 
+            
+        self.errorDistance = math.hypot((abs(self.msg_pose.x)  - abs(self.msg_point.x)), (abs(self.msg_pose.y)  - abs(self.msg_point.y)))
+
+
+
         self.msg_vel.linear.x = 0.0
         self.msg_vel.angular.z = 0.0
 
@@ -43,5 +79,5 @@ def main(args=None):
     m_p.destroy_node()
     rclpy.shutdown()
 
-if __name__ == '__main__':
-        main()
+if _name_ == '_main_':
+    main()

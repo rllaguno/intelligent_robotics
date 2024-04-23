@@ -1,0 +1,46 @@
+[0.816s] Invoking command in '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2': AMENT_PREFIX_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/prefix_override:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_challenge_2 build --build-base /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build install --record /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/install.log --single-version-externally-managed install_data
+[1.129s] running egg_info
+[1.130s] creating ../../build/mini_challenge_2/mini_challenge_2.egg-info
+[1.130s] writing ../../build/mini_challenge_2/mini_challenge_2.egg-info/PKG-INFO
+[1.130s] writing dependency_links to ../../build/mini_challenge_2/mini_challenge_2.egg-info/dependency_links.txt
+[1.130s] writing entry points to ../../build/mini_challenge_2/mini_challenge_2.egg-info/entry_points.txt
+[1.131s] writing requirements to ../../build/mini_challenge_2/mini_challenge_2.egg-info/requires.txt
+[1.131s] writing top-level names to ../../build/mini_challenge_2/mini_challenge_2.egg-info/top_level.txt
+[1.131s] writing manifest file '../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'
+[1.133s] reading manifest file '../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'
+[1.133s] adding license file 'LICENSE'
+[1.135s] writing manifest file '../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.135s] running build_py
+[1.135s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build
+[1.135s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib
+[1.136s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2
+[1.136s] copying mini_challenge_2/Odometry.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2
+[1.136s] copying mini_challenge_2/PointGenerator.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2
+[1.136s] copying mini_challenge_2/__init__.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2
+[1.136s] copying mini_challenge_2/Controller.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2
+[1.136s] running install
+[1.137s] running install_lib
+[1.138s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2
+[1.138s] copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2/Odometry.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2
+[1.138s] copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2/PointGenerator.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2
+[1.139s] copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2/__init__.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2
+[1.139s] copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2/Controller.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2
+[1.140s] byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/Odometry.py to Odometry.cpython-310.pyc
+[1.140s] byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/PointGenerator.py to PointGenerator.cpython-310.pyc
+[1.141s] byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/__init__.py to __init__.cpython-310.pyc
+[1.141s] byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/Controller.py to Controller.cpython-310.pyc
+[1.142s] running install_data
+[1.142s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/share/ament_index
+[1.142s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/share/ament_index/resource_index
+[1.143s] creating /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/share/ament_index/resource_index/packages
+[1.143s] copying resource/mini_challenge_2 -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/share/mini_challenge_2
+[1.143s] running install_egg_info
+[1.145s] Copying ../../build/mini_challenge_2/mini_challenge_2.egg-info to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2-0.0.0-py3.10.egg-info
+[1.146s] running install_scripts
+[1.175s] Installing Controller script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2
+[1.175s] Installing Odometry script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2
+[1.175s] Installing PointGenerator script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2
+[1.176s] writing list of installed files to '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/install.log'
+[1.208s] Invoked command in '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2' returned '0': AMENT_PREFIX_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/prefix_override:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini_challenge_2 build --build-base /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build install --record /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/install.log --single-version-externally-managed install_data

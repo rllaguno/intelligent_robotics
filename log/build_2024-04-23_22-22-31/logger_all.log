@@ -1,0 +1,317 @@
+[1.558s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.558s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79ba24f44820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79ba24f55d20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79ba24f55d20>>)
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.634s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.634s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mcr2/robotica_inteligente_eq5'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.634s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.635s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.653s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.654s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'ignore_ament_install'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['colcon_pkg']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'colcon_pkg'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['colcon_meta']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'colcon_meta'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['ros']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'ros'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['cmake', 'python']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'cmake'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'python'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extensions ['python_setup_py']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics) by extension 'python_setup_py'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/build) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/build) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/build) ignored
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/install) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/install) by extension 'ignore'
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/install) ignored
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/log) by extensions ['ignore', 'ignore_ament_install']
+[1.655s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/log) by extension 'ignore'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/log) ignored
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['ignore', 'ignore_ament_install']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'ignore'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'ignore_ament_install'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'colcon_meta'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['ros']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'ros'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['cmake', 'python']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'cmake'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'python'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extensions ['python_setup_py']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src) by extension 'python_setup_py'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['ignore', 'ignore_ament_install']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'ignore'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'ignore_ament_install'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['colcon_pkg']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'colcon_pkg'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['colcon_meta']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'colcon_meta'
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['ros']
+[1.656s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'ros'
+[1.657s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'manchester_robotics/src/mini_challenge_1': Error(s) in package 'manchester_robotics/src/mini_challenge_1/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 13, column 27
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['cmake', 'python']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'cmake'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'python'
+[1.658s] DEBUG:colcon.colcon_core.package_identification:Python package in 'manchester_robotics/src/mini_challenge_1' passes arguments to the setup() function which requires a different identification extension than 'python'
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extensions ['python_setup_py']
+[1.658s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_1) by extension 'python_setup_py'
+[2.097s] DEBUG:colcon.colcon_core.package_identification:Package 'manchester_robotics/src/mini_challenge_1' with type 'python' and name 'mini_challenge_1'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extension 'ignore'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extension 'ignore_ament_install'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extensions ['colcon_pkg']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extension 'colcon_pkg'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extensions ['colcon_meta']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extension 'colcon_meta'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extensions ['ros']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/mini_challenge_2) by extension 'ros'
+[2.102s] DEBUG:colcon.colcon_core.package_identification:Package 'manchester_robotics/src/mini_challenge_2' with type 'ros.ament_python' and name 'mini_challenge_2'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extensions ['ignore', 'ignore_ament_install']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extension 'ignore_ament_install'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extensions ['colcon_pkg']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extension 'colcon_pkg'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extensions ['colcon_meta']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extension 'colcon_meta'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(manchester_robotics/src/signal_msg) by extension 'ros'
+[2.104s] DEBUG:colcon.colcon_core.package_identification:Package 'manchester_robotics/src/signal_msg' with type 'ros.ament_cmake' and name 'signal_msg'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ignore_ament_install'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_pkg']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_pkg'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['colcon_meta']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'ros'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['cmake', 'python']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'cmake'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extensions ['python_setup_py']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision) by extension 'python_setup_py'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'ignore'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'ignore_ament_install'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['colcon_pkg']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['colcon_meta']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'colcon_meta'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['ros']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'ros'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['cmake', 'python']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'cmake'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'python'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extensions ['python_setup_py']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_01) by extension 'python_setup_py'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['ignore', 'ignore_ament_install']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'ignore'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'ignore_ament_install'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['colcon_pkg']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'colcon_pkg'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['colcon_meta']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'colcon_meta'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['ros']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'ros'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['cmake', 'python']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'cmake'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'python'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extensions ['python_setup_py']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(vision/challenge_02) by extension 'python_setup_py'
+[2.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.310s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/mcr2/robotica_inteligente_eq5/install
+[2.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/mcr2/ros2_utilities_ws/install
+[2.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 345 installed packages in /opt/ros/humble
+[2.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_target' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_clean_cache' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_clean_first' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'cmake_force_configure' from command line to 'False'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'ament_cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'catkin_cmake_args' from command line to 'None'
+[2.558s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.558s] DEBUG:colcon.colcon_core.verb:Building package 'mini_challenge_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1', 'merge_install': False, 'path': '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1', 'symlink_install': False, 'test_result_base': None}
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_target' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_clean_first' from command line to 'False'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'cmake_force_configure' from command line to 'False'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'ament_cmake_args' from command line to 'None'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.580s] Level 5:colcon.colcon_core.verb:set package 'signal_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.580s] DEBUG:colcon.colcon_core.verb:Building package 'signal_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/robotica_inteligente_eq5/build/signal_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/robotica_inteligente_eq5/install/signal_msg', 'merge_install': False, 'path': '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/signal_msg', 'symlink_install': False, 'test_result_base': None}
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_args' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_target' from command line to 'None'
+[2.600s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_clean_first' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'cmake_force_configure' from command line to 'False'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'ament_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.601s] Level 5:colcon.colcon_core.verb:set package 'mini_challenge_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.601s] DEBUG:colcon.colcon_core.verb:Building package 'mini_challenge_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2', 'merge_install': False, 'path': '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2', 'symlink_install': False, 'test_result_base': None}
+[2.623s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.647s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.647s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/signal_msg' with build type 'ament_cmake'
+[2.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/signal_msg'
+[2.660s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.727s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1'
+[2.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/robotica_inteligente_eq5/build/signal_msg -- -j16 -l16
+[3.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/robotica_inteligente_eq5/build/signal_msg -- -j16 -l16
+[3.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/robotica_inteligente_eq5/build/signal_msg
+[3.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_msg)
+[3.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/robotica_inteligente_eq5/build/signal_msg
+[3.983s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg' for CMake module files
+[3.984s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg' for CMake config files
+[3.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'cmake_prefix_path')
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.ps1'
+[4.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.dsv'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.sh'
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib'
+[4.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'ld_library_path_lib')
+[4.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.ps1'
+[4.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.dsv'
+[4.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.sh'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/bin'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/pkgconfig/signal_msg.pc'
+[4.045s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/python3.10/site-packages'
+[4.046s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/bin'
+[4.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.ps1'
+[4.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.dsv'
+[4.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.sh'
+[4.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.bash'
+[4.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.zsh'
+[4.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/colcon-core/packages/signal_msg)
+[4.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1': PYTHONPATH=/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_challenge_1 build --build-base /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build install --record /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/install.log --single-version-externally-managed
+[4.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(signal_msg)
+[4.255s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg' for CMake module files
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg' for CMake config files
+[4.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'cmake_prefix_path')
+[4.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.ps1'
+[4.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.dsv'
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/cmake_prefix_path.sh'
+[4.284s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib'
+[4.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('signal_msg', 'ld_library_path_lib')
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.ps1'
+[4.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.dsv'
+[4.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/hook/ld_library_path_lib.sh'
+[4.310s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/bin'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/pkgconfig/signal_msg.pc'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/python3.10/site-packages'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/bin'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.ps1'
+[4.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.dsv'
+[4.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.sh'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.bash'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.zsh'
+[4.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/colcon-core/packages/signal_msg)
+[4.343s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2' with build type 'ament_python'
+[4.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_challenge_2', 'ament_prefix_path')
+[4.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/ament_prefix_path.ps1'
+[4.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/ament_prefix_path.dsv'
+[4.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/ament_prefix_path.sh'
+[4.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.968s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2'
+[4.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1' returned '0': PYTHONPATH=/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_challenge_1 build --build-base /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build install --record /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/install.log --single-version-externally-managed
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1' for CMake module files
+[5.112s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1' for CMake config files
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/bin'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/pkgconfig/mini_challenge_1.pc'
+[5.113s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages'
+[5.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_challenge_1', 'pythonpath')
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/hook/pythonpath.ps1'
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/hook/pythonpath.dsv'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/hook/pythonpath.sh'
+[5.145s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/bin'
+[5.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_challenge_1)
+[5.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/package.ps1'
+[5.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/package.dsv'
+[5.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/package.sh'
+[5.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/package.bash'
+[5.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/package.zsh'
+[5.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/colcon-core/packages/mini_challenge_1)
+[5.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2': PYTHONPATH=/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_challenge_2 build --build-base /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build install --record /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/install.log --single-version-externally-managed
+[6.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2' returned '0': PYTHONPATH=/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/mini_challenge_2 build --build-base /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build install --record /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/install.log --single-version-externally-managed
+[6.302s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2' for CMake module files
+[6.303s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2' for CMake config files
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib'
+[6.304s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/bin'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/pkgconfig/mini_challenge_2.pc'
+[6.305s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages'
+[6.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_challenge_2', 'pythonpath')
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/pythonpath.ps1'
+[6.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/pythonpath.dsv'
+[6.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/hook/pythonpath.sh'
+[6.325s] Level 1:colcon.colcon_core.environment:checking '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/bin'
+[6.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_challenge_2)
+[6.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/package.ps1'
+[6.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/package.dsv'
+[6.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/package.sh'
+[6.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/package.bash'
+[6.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2/package.zsh'
+[6.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/colcon-core/packages/mini_challenge_2)
+[6.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.355s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.356s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.392s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.415s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/robotica_inteligente_eq5/install/local_setup.ps1'
+[6.442s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcr2/robotica_inteligente_eq5/install/_local_setup_util_ps1.py'
+[6.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/robotica_inteligente_eq5/install/setup.ps1'
+[6.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/robotica_inteligente_eq5/install/local_setup.sh'
+[6.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcr2/robotica_inteligente_eq5/install/_local_setup_util_sh.py'
+[6.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/robotica_inteligente_eq5/install/setup.sh'
+[6.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/robotica_inteligente_eq5/install/local_setup.bash'
+[6.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/robotica_inteligente_eq5/install/setup.bash'
+[6.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcr2/robotica_inteligente_eq5/install/local_setup.zsh'
+[6.531s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcr2/robotica_inteligente_eq5/install/setup.zsh'

@@ -1,0 +1,538 @@
+[0.000000] (-) TimerEvent: {}
+[0.001535] (mini_challenge_1) JobQueued: {'identifier': 'mini_challenge_1', 'dependencies': OrderedDict()}
+[0.015157] (signal_msg) JobQueued: {'identifier': 'signal_msg', 'dependencies': OrderedDict()}
+[0.015249] (mini_challenge_2) JobQueued: {'identifier': 'mini_challenge_2', 'dependencies': OrderedDict([('signal_msg', '/home/mcr2/robotica_inteligente_eq5/install/signal_msg')])}
+[0.015278] (signal_msg) JobStarted: {'identifier': 'signal_msg'}
+[0.110249] (-) TimerEvent: {}
+[0.218003] (-) TimerEvent: {}
+[0.270164] (mini_challenge_1) JobStarted: {'identifier': 'mini_challenge_1'}
+[0.328331] (-) TimerEvent: {}
+[0.440000] (-) TimerEvent: {}
+[0.497542] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'cmake'}
+[0.497821] (signal_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/signal_msg', '-DCMAKE_INSTALL_PREFIX=/home/mcr2/robotica_inteligente_eq5/install/signal_msg'], 'cwd': '/home/mcr2/robotica_inteligente_eq5/build/signal_msg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/plugins'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/'), ('LANGUAGE', 'en_US:'), ('USER', 'mcr2'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr2'), ('OLDPWD', '/home/mcr2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1987'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mcr2-virtual-machine:@/tmp/.ICE-unix/1938,unix/mcr2-virtual-machine:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5a14666_999b_4cbd_89c1_c894de7ad20d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZQHKM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr2/robotica_inteligente_eq5/build/signal_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble')]), 'shell': False}
+[0.545043] (-) TimerEvent: {}
+[0.653697] (-) TimerEvent: {}
+[0.762855] (-) TimerEvent: {}
+[0.873400] (-) TimerEvent: {}
+[0.982400] (-) TimerEvent: {}
+[1.091002] (-) TimerEvent: {}
+[1.195065] (-) TimerEvent: {}
+[1.311659] (-) TimerEvent: {}
+[1.421318] (-) TimerEvent: {}
+[1.500577] (signal_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.528564] (-) TimerEvent: {}
+[1.638369] (-) TimerEvent: {}
+[1.748412] (-) TimerEvent: {}
+[1.858341] (-) TimerEvent: {}
+[1.958077] (signal_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.958636] (-) TimerEvent: {}
+[2.005751] (signal_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.061071] (-) TimerEvent: {}
+[2.168159] (-) TimerEvent: {}
+[2.265222] (signal_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.278820] (-) TimerEvent: {}
+[2.296989] (signal_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.310523] (signal_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.321042] (signal_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.350537] (signal_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.387287] (-) TimerEvent: {}
+[2.497664] (-) TimerEvent: {}
+[2.598423] (-) TimerEvent: {}
+[2.700399] (-) TimerEvent: {}
+[2.808380] (-) TimerEvent: {}
+[2.870230] (signal_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.882683] (signal_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.883236] (signal_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.887628] (signal_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.918308] (-) TimerEvent: {}
+[3.028064] (signal_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.028280] (-) TimerEvent: {}
+[3.137046] (-) TimerEvent: {}
+[3.259305] (-) TimerEvent: {}
+[3.371134] (mini_challenge_1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/mini_challenge_1', 'build', '--build-base', '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build', 'install', '--record', '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/install.log', '--single-version-externally-managed'], 'cwd': '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/plugins', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/', 'LANGUAGE': 'en_US:', 'USER': 'mcr2', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mcr2', 'OLDPWD': '/home/mcr2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1987', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mcr2/ros2_utilities_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mcr2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mcr2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mcr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mcr2-virtual-machine:@/tmp/.ICE-unix/1938,unix/mcr2-virtual-machine:/tmp/.ICE-unix/1938', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5a14666_999b_4cbd_89c1_c894de7ad20d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZQHKM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos/share', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco'}, 'shell': False}
+[3.372213] (-) TimerEvent: {}
+[3.480432] (-) TimerEvent: {}
+[3.588633] (-) TimerEvent: {}
+[3.699039] (-) TimerEvent: {}
+[3.730885] (signal_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.799490] (-) TimerEvent: {}
+[3.904849] (-) TimerEvent: {}
+[4.014789] (-) TimerEvent: {}
+[4.123527] (-) TimerEvent: {}
+[4.192714] (mini_challenge_1) StdoutLine: {'line': b'running egg_info\n'}
+[4.193265] (mini_challenge_1) StdoutLine: {'line': b'writing ../../../build/mini_challenge_1/mini_challenge_1.egg-info/PKG-INFO\n'}
+[4.194801] (mini_challenge_1) StdoutLine: {'line': b'writing dependency_links to ../../../build/mini_challenge_1/mini_challenge_1.egg-info/dependency_links.txt\n'}
+[4.195329] (mini_challenge_1) StdoutLine: {'line': b'writing entry points to ../../../build/mini_challenge_1/mini_challenge_1.egg-info/entry_points.txt\n'}
+[4.195583] (mini_challenge_1) StdoutLine: {'line': b'writing requirements to ../../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt\n'}
+[4.196327] (mini_challenge_1) StdoutLine: {'line': b'writing top-level names to ../../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt\n'}
+[4.196611] (mini_challenge_1) StdoutLine: {'line': b"writing manifest file '../../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'\n"}
+[4.201363] (mini_challenge_1) StdoutLine: {'line': b"reading manifest file '../../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'\n"}
+[4.204511] (mini_challenge_1) StdoutLine: {'line': b"writing manifest file '../../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'\n"}
+[4.205926] (mini_challenge_1) StdoutLine: {'line': b'running build\n'}
+[4.207872] (mini_challenge_1) StdoutLine: {'line': b'running build_py\n'}
+[4.208220] (mini_challenge_1) StdoutLine: {'line': b'copying mini_challenge_1/PathGenerator.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1\n'}
+[4.209153] (mini_challenge_1) StdoutLine: {'line': b'copying mini_challenge_1/Controller.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1\n'}
+[4.209895] (mini_challenge_1) StdoutLine: {'line': b'copying mini_challenge_1/__init__.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1\n'}
+[4.210250] (mini_challenge_1) StdoutLine: {'line': b'running install\n'}
+[4.211926] (mini_challenge_1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.212767] (mini_challenge_1) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.213011] (mini_challenge_1) StdoutLine: {'line': b'running install_lib\n'}
+[4.214369] (mini_challenge_1) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1/PathGenerator.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1\n'}
+[4.214794] (mini_challenge_1) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1/Controller.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1\n'}
+[4.215511] (mini_challenge_1) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/build/lib/mini_challenge_1/__init__.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1\n'}
+[4.218428] (mini_challenge_1) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/PathGenerator.py to PathGenerator.cpython-310.pyc\n'}
+[4.223357] (mini_challenge_1) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/Controller.py to Controller.cpython-310.pyc\n'}
+[4.223739] (-) TimerEvent: {}
+[4.224718] (mini_challenge_1) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/__init__.py to __init__.cpython-310.pyc\n'}
+[4.225112] (mini_challenge_1) StdoutLine: {'line': b'running install_data\n'}
+[4.226254] (mini_challenge_1) StdoutLine: {'line': b'copying resource/mini_challenge_1 -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/ament_index/resource_index/packages\n'}
+[4.227504] (mini_challenge_1) StdoutLine: {'line': b'copying package.xml -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1\n'}
+[4.228867] (mini_challenge_1) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/launch\n'}
+[4.229191] (mini_challenge_1) StdoutLine: {'line': b'copying launch/mini_launch.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/launch\n'}
+[4.229420] (mini_challenge_1) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/config\n'}
+[4.230080] (mini_challenge_1) StdoutLine: {'line': b'copying config/params.yaml -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/share/mini_challenge_1/config\n'}
+[4.230404] (mini_challenge_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.236265] (mini_challenge_1) StdoutLine: {'line': b"removing '/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.236371] (mini_challenge_1) StdoutLine: {'line': b'Copying ../../../build/mini_challenge_1/mini_challenge_1.egg-info to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info\n'}
+[4.238301] (mini_challenge_1) StdoutLine: {'line': b'running install_scripts\n'}
+[4.328589] (-) TimerEvent: {}
+[4.399579] (mini_challenge_1) StdoutLine: {'line': b'Installing Controller script to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/mini_challenge_1\n'}
+[4.405820] (mini_challenge_1) StdoutLine: {'line': b'Installing PathGenerator script to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_1/lib/mini_challenge_1\n'}
+[4.406305] (mini_challenge_1) StdoutLine: {'line': b"writing list of installed files to '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_1/install.log'\n"}
+[4.438196] (-) TimerEvent: {}
+[4.475534] (mini_challenge_1) CommandEnded: {'returncode': 0}
+[4.507313] (signal_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.545561] (-) TimerEvent: {}
+[4.670155] (mini_challenge_1) JobEnded: {'identifier': 'mini_challenge_1', 'rc': 0}
+[4.672033] (-) TimerEvent: {}
+[4.780906] (-) TimerEvent: {}
+[4.859431] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.890997] (-) TimerEvent: {}
+[4.903217] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.966855] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.999786] (-) TimerEvent: {}
+[5.100134] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.101746] (-) TimerEvent: {}
+[5.208754] (-) TimerEvent: {}
+[5.230205] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.311063] (-) TimerEvent: {}
+[5.414562] (-) TimerEvent: {}
+[5.527672] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.529737] (-) TimerEvent: {}
+[5.640810] (-) TimerEvent: {}
+[5.746592] (-) TimerEvent: {}
+[5.855040] (-) TimerEvent: {}
+[5.966646] (-) TimerEvent: {}
+[6.075602] (-) TimerEvent: {}
+[6.184890] (-) TimerEvent: {}
+[6.294815] (-) TimerEvent: {}
+[6.405069] (-) TimerEvent: {}
+[6.514383] (-) TimerEvent: {}
+[6.623227] (-) TimerEvent: {}
+[6.663855] (signal_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.731546] (-) TimerEvent: {}
+[6.842347] (-) TimerEvent: {}
+[6.951301] (-) TimerEvent: {}
+[7.058196] (-) TimerEvent: {}
+[7.168100] (-) TimerEvent: {}
+[7.277606] (-) TimerEvent: {}
+[7.385504] (-) TimerEvent: {}
+[7.494495] (-) TimerEvent: {}
+[7.607835] (-) TimerEvent: {}
+[7.715935] (-) TimerEvent: {}
+[7.824308] (-) TimerEvent: {}
+[7.927404] (-) TimerEvent: {}
+[7.995092] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.028835] (-) TimerEvent: {}
+[8.138954] (-) TimerEvent: {}
+[8.247944] (-) TimerEvent: {}
+[8.356459] (-) TimerEvent: {}
+[8.466613] (-) TimerEvent: {}
+[8.574067] (-) TimerEvent: {}
+[8.640181] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.683468] (-) TimerEvent: {}
+[8.733930] (signal_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.750733] (signal_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.792647] (-) TimerEvent: {}
+[8.878138] (signal_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.878755] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.878987] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.879199] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.900646] (-) TimerEvent: {}
+[8.963818] (signal_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.010668] (-) TimerEvent: {}
+[9.121114] (-) TimerEvent: {}
+[9.219552] (signal_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.229429] (-) TimerEvent: {}
+[9.339254] (-) TimerEvent: {}
+[9.433202] (signal_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.443574] (signal_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.444074] (-) TimerEvent: {}
+[9.464652] (signal_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.558622] (-) TimerEvent: {}
+[9.633497] (signal_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[9.644841] (signal_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/mcr2/robotica_inteligente_eq5/build/signal_msg\n'}
+[9.667261] (-) TimerEvent: {}
+[9.683119] (signal_msg) CommandEnded: {'returncode': 0}
+[9.685122] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'build'}
+[9.685221] (signal_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mcr2/robotica_inteligente_eq5/build/signal_msg', '--', '-j16', '-l16'], 'cwd': '/home/mcr2/robotica_inteligente_eq5/build/signal_msg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/plugins'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/'), ('LANGUAGE', 'en_US:'), ('USER', 'mcr2'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr2'), ('OLDPWD', '/home/mcr2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1987'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mcr2-virtual-machine:@/tmp/.ICE-unix/1938,unix/mcr2-virtual-machine:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5a14666_999b_4cbd_89c1_c894de7ad20d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZQHKM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr2/robotica_inteligente_eq5/build/signal_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble')]), 'shell': False}
+[9.777141] (-) TimerEvent: {}
+[9.855894] (signal_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.878551] (-) TimerEvent: {}
+[9.900528] (signal_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.950473] (signal_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_signal_msg\n'}
+[9.982625] (-) TimerEvent: {}
+[10.086766] (-) TimerEvent: {}
+[10.201341] (-) TimerEvent: {}
+[10.309420] (-) TimerEvent: {}
+[10.417568] (-) TimerEvent: {}
+[10.518552] (-) TimerEvent: {}
+[10.620850] (-) TimerEvent: {}
+[10.730242] (-) TimerEvent: {}
+[10.774096] (signal_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_c.dir/rosidl_generator_c/signal_msg/msg/detail/signal_decomposed__functions.c.o\x1b[0m\n'}
+[10.840237] (-) TimerEvent: {}
+[10.935624] (signal_msg) StdoutLine: {'line': b'running egg_info\n'}
+[10.936574] (signal_msg) StdoutLine: {'line': b'writing signal_msg.egg-info/PKG-INFO\n'}
+[10.937652] (signal_msg) StdoutLine: {'line': b'writing dependency_links to signal_msg.egg-info/dependency_links.txt\n'}
+[10.939846] (signal_msg) StdoutLine: {'line': b'writing top-level names to signal_msg.egg-info/top_level.txt\n'}
+[10.941222] (signal_msg) StdoutLine: {'line': b"writing manifest file 'signal_msg.egg-info/SOURCES.txt'\n"}
+[10.941590] (-) TimerEvent: {}
+[10.948067] (signal_msg) StdoutLine: {'line': b"reading manifest file 'signal_msg.egg-info/SOURCES.txt'\n"}
+[10.948260] (signal_msg) StdoutLine: {'line': b"writing manifest file 'signal_msg.egg-info/SOURCES.txt'\n"}
+[10.948335] (signal_msg) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libsignal_msg__rosidl_generator_c.so\x1b[0m\n'}
+[10.954181] (signal_msg) StdoutLine: {'line': b'[ 12%] Built target signal_msg__cpp\n'}
+[10.988366] (signal_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.989648] (signal_msg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.989823] (signal_msg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.006031] (signal_msg) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_signal_msg_egg\n'}
+[11.043599] (-) TimerEvent: {}
+[11.077785] (signal_msg) StdoutLine: {'line': b'[ 22%] Built target signal_msg__rosidl_generator_c\n'}
+[11.096545] (signal_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.111198] (signal_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.113985] (signal_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.152197] (-) TimerEvent: {}
+[11.261465] (-) TimerEvent: {}
+[11.362784] (-) TimerEvent: {}
+[11.465367] (-) TimerEvent: {}
+[11.572223] (-) TimerEvent: {}
+[11.682987] (-) TimerEvent: {}
+[11.688920] (signal_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/signal_msg/msg/detail/dds_fastrtps/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[11.698955] (signal_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/signal_msg/msg/detail/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[11.794202] (-) TimerEvent: {}
+[11.844546] (signal_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/signal_msg/msg/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[11.896648] (-) TimerEvent: {}
+[12.011544] (-) TimerEvent: {}
+[12.120949] (-) TimerEvent: {}
+[12.180199] (signal_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/signal_msg/msg/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[12.221162] (-) TimerEvent: {}
+[12.274885] (signal_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/signal_msg/msg/detail/signal_decomposed__type_support_c.cpp.o\x1b[0m\n'}
+[12.287894] (signal_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.323476] (-) TimerEvent: {}
+[12.328292] (signal_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/signal_msg/msg/detail/signal_decomposed__type_support.c.o\x1b[0m\n'}
+[12.433252] (-) TimerEvent: {}
+[12.541685] (-) TimerEvent: {}
+[12.650646] (-) TimerEvent: {}
+[12.657087] (signal_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libsignal_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.750869] (-) TimerEvent: {}
+[12.817726] (signal_msg) StdoutLine: {'line': b'[ 58%] Built target signal_msg__rosidl_typesupport_c\n'}
+[12.854300] (-) TimerEvent: {}
+[12.915176] (signal_msg) StdoutLine: {'line': b'[ 58%] Built target signal_msg__rosidl_typesupport_introspection_c\n'}
+[12.960733] (-) TimerEvent: {}
+[13.063262] (-) TimerEvent: {}
+[13.166087] (-) TimerEvent: {}
+[13.267351] (-) TimerEvent: {}
+[13.371341] (-) TimerEvent: {}
+[13.480928] (-) TimerEvent: {}
+[13.589470] (-) TimerEvent: {}
+[13.693574] (-) TimerEvent: {}
+[13.798622] (-) TimerEvent: {}
+[13.852600] (signal_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.899613] (-) TimerEvent: {}
+[13.996345] (signal_msg) StdoutLine: {'line': b'[ 61%] Built target signal_msg__rosidl_typesupport_cpp\n'}
+[14.011548] (-) TimerEvent: {}
+[14.121824] (-) TimerEvent: {}
+[14.227403] (-) TimerEvent: {}
+[14.333128] (-) TimerEvent: {}
+[14.446938] (-) TimerEvent: {}
+[14.556701] (-) TimerEvent: {}
+[14.657613] (-) TimerEvent: {}
+[14.669517] (signal_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.690461] (signal_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.753016] (signal_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.759668] (-) TimerEvent: {}
+[14.866451] (-) TimerEvent: {}
+[14.904723] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg__rosidl_typesupport_fastrtps_c\n'}
+[14.925291] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[14.947523] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg__rosidl_typesupport_introspection_cpp\n'}
+[14.977322] (-) TimerEvent: {}
+[15.040777] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg\n'}
+[15.086705] (-) TimerEvent: {}
+[15.114256] (signal_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.192553] (-) TimerEvent: {}
+[15.304541] (-) TimerEvent: {}
+[15.406698] (-) TimerEvent: {}
+[15.521463] (-) TimerEvent: {}
+[15.632143] (-) TimerEvent: {}
+[15.741158] (-) TimerEvent: {}
+[15.850791] (-) TimerEvent: {}
+[15.958616] (-) TimerEvent: {}
+[16.067183] (-) TimerEvent: {}
+[16.126935] (signal_msg) StdoutLine: {'line': b'[ 74%] Built target signal_msg__py\n'}
+[16.171434] (-) TimerEvent: {}
+[16.207006] (signal_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_py.dir/rosidl_generator_py/signal_msg/msg/_signal_decomposed_s.c.o\x1b[0m\n'}
+[16.284576] (-) TimerEvent: {}
+[16.402940] (-) TimerEvent: {}
+[16.518686] (-) TimerEvent: {}
+[16.629057] (-) TimerEvent: {}
+[16.737354] (-) TimerEvent: {}
+[16.845895] (-) TimerEvent: {}
+[16.905504] (signal_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/libsignal_msg__rosidl_generator_py.so\x1b[0m\n'}
+[16.957331] (-) TimerEvent: {}
+[17.017137] (signal_msg) StdoutLine: {'line': b'[ 80%] Built target signal_msg__rosidl_generator_py\n'}
+[17.064138] (-) TimerEvent: {}
+[17.080447] (signal_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[17.082740] (signal_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[17.086270] (signal_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[17.173154] (-) TimerEvent: {}
+[17.276808] (-) TimerEvent: {}
+[17.361835] (signal_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.376987] (-) TimerEvent: {}
+[17.418370] (signal_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.455400] (signal_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[17.478540] (-) TimerEvent: {}
+[17.525961] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[17.539260] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[17.564164] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_c__pyext\n'}
+[17.581025] (-) TimerEvent: {}
+[17.595703] (signal_msg) CommandEnded: {'returncode': 0}
+[17.688979] (-) TimerEvent: {}
+[17.790574] (-) TimerEvent: {}
+[17.891956] (-) TimerEvent: {}
+[17.926394] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'install'}
+[17.953949] (signal_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mcr2/robotica_inteligente_eq5/build/signal_msg'], 'cwd': '/home/mcr2/robotica_inteligente_eq5/build/signal_msg', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/plugins'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/'), ('LANGUAGE', 'en_US:'), ('USER', 'mcr2'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mcr2'), ('OLDPWD', '/home/mcr2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1987'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mcr2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mcr2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/mcr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mcr2-virtual-machine:@/tmp/.ICE-unix/1938,unix/mcr2-virtual-machine:/tmp/.ICE-unix/1938'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d5a14666_999b_4cbd_89c1_c894de7ad20d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ZQHKM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos/share'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mcr2/robotica_inteligente_eq5/build/signal_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble')]), 'shell': False}
+[17.978422] (signal_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.981488] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/rosidl_interfaces/signal_msg\n'}
+[17.981624] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[17.981687] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[17.981745] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.h\n'}
+[17.981801] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[17.981856] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.h\n'}
+[17.983209] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.h\n'}
+[17.984874] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.c\n'}
+[17.984967] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.h\n'}
+[17.985058] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[17.985122] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/library_path.sh\n'}
+[17.985607] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/library_path.dsv\n'}
+[17.986480] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so\n'}
+[17.987475] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so" to ""\n'}
+[17.987761] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[17.988020] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[17.988237] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[17.988871] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[17.989239] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_c.h\n'}
+[17.989473] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[17.989718] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[17.990469] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[17.990807] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[17.993501] (-) TimerEvent: {}
+[17.994407] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[17.994914] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.hpp\n'}
+[17.995621] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__traits.hpp\n'}
+[17.995889] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__builder.hpp\n'}
+[17.996104] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.hpp\n'}
+[17.996309] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[17.996519] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[17.996721] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[17.997285] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[17.997537] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/dds_fastrtps\n'}
+[17.997743] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[17.997947] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[17.999482] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[17.999682] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[17.999774] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[17.999869] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[17.999967] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[18.000041] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_c.h\n'}
+[18.003233] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.c\n'}
+[18.003927] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so\n'}
+[18.004200] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.004423] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so\n'}
+[18.004631] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so" to ""\n'}
+[18.005629] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg\n'}
+[18.005993] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[18.006383] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[18.006764] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.cpp\n'}
+[18.007940] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.008228] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[18.009527] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.009948] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so\n'}
+[18.010689] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[18.010962] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/pythonpath.sh\n'}
+[18.011226] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/pythonpath.dsv\n'}
+[18.011495] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info\n'}
+[18.011710] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[18.011920] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[18.012435] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[18.012956] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[18.013342] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg\n'}
+[18.013593] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.013912] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.015931] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.016234] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.016455] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c\n'}
+[18.016704] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.016937] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/libsignal_msg__rosidl_generator_py.so\n'}
+[18.017123] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg\n'}
+[18.017325] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed_s.c\n'}
+[18.017527] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py\n'}
+[18.017747] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py\n'}
+[18.017951] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py\n'}
+[18.108240] (-) TimerEvent: {}
+[18.163108] (signal_msg) StdoutLine: {'line': b"Listing '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg'...\n"}
+[18.163631] (signal_msg) StdoutLine: {'line': b"Compiling '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py'...\n"}
+[18.163898] (signal_msg) StdoutLine: {'line': b"Listing '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg'...\n"}
+[18.164187] (signal_msg) StdoutLine: {'line': b"Compiling '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py'...\n"}
+[18.164396] (signal_msg) StdoutLine: {'line': b"Compiling '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py'...\n"}
+[18.175616] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.177302] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.177487] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.177972] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.178237] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.178468] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.178686] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so\n'}
+[18.178897] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so" to ""\n'}
+[18.179103] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/msg/SignalDecomposed.idl\n'}
+[18.179309] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/msg/SignalDecomposed.msg\n'}
+[18.179512] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/package_run_dependencies/signal_msg\n'}
+[18.180503] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/parent_prefix_path/signal_msg\n'}
+[18.181823] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/ament_prefix_path.sh\n'}
+[18.182945] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/ament_prefix_path.dsv\n'}
+[18.184036] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/path.sh\n'}
+[18.186973] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/path.dsv\n'}
+[18.187342] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.bash\n'}
+[18.187521] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.sh\n'}
+[18.187919] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.zsh\n'}
+[18.189279] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.dsv\n'}
+[18.189790] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.dsv\n'}
+[18.190032] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/packages/signal_msg\n'}
+[18.190283] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport.cmake\n'}
+[18.190491] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.191008] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.191777] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.192075] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cppExport.cmake\n'}
+[18.193220] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.194515] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.195349] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.195920] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.196282] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport.cmake\n'}
+[18.196653] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.196862] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.197069] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.198967] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport.cmake\n'}
+[18.199084] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.200020] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport.cmake\n'}
+[18.202064] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.202190] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[18.202257] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.202310] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.202360] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.202423] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.202469] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.202517] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.203611] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msgConfig.cmake\n'}
+[18.203689] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msgConfig-version.cmake\n'}
+[18.203752] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.xml\n'}
+[18.211270] (signal_msg) CommandEnded: {'returncode': 0}
+[18.220164] (-) TimerEvent: {}
+[18.321550] (-) TimerEvent: {}
+[18.437686] (-) TimerEvent: {}
+[18.546377] (-) TimerEvent: {}
+[18.659299] (-) TimerEvent: {}
+[18.767604] (-) TimerEvent: {}
+[18.879635] (-) TimerEvent: {}
+[18.946183] (signal_msg) JobEnded: {'identifier': 'signal_msg', 'rc': 0}
+[18.957339] (mini_challenge_2) JobStarted: {'identifier': 'mini_challenge_2'}
+[18.988314] (-) TimerEvent: {}
+[19.093041] (-) TimerEvent: {}
+[19.193603] (-) TimerEvent: {}
+[19.295446] (-) TimerEvent: {}
+[19.396346] (-) TimerEvent: {}
+[19.497288] (-) TimerEvent: {}
+[19.605860] (-) TimerEvent: {}
+[19.711154] (-) TimerEvent: {}
+[19.811897] (-) TimerEvent: {}
+[19.919401] (-) TimerEvent: {}
+[20.028458] (-) TimerEvent: {}
+[20.136789] (-) TimerEvent: {}
+[20.247751] (-) TimerEvent: {}
+[20.354840] (-) TimerEvent: {}
+[20.458194] (-) TimerEvent: {}
+[20.562002] (-) TimerEvent: {}
+[20.669255] (-) TimerEvent: {}
+[20.777469] (-) TimerEvent: {}
+[20.887946] (-) TimerEvent: {}
+[20.996835] (-) TimerEvent: {}
+[21.103956] (-) TimerEvent: {}
+[21.204585] (-) TimerEvent: {}
+[21.310322] (-) TimerEvent: {}
+[21.411536] (-) TimerEvent: {}
+[21.440045] (mini_challenge_2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/mini_challenge_2', 'build', '--build-base', '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build', 'install', '--record', '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/install.log', '--single-version-externally-managed'], 'cwd': '/home/mcr2/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/plugins', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/mcr2/ros2_tutorial_ws/src/puzzlebot_ros/gazebo/', 'LANGUAGE': 'en_US:', 'USER': 'mcr2', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge/lib:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent/lib:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco_ros/lib:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/lib:/home/mcr2/ros2_utilities_ws/install/aruco/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mcr2', 'OLDPWD': '/home/mcr2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1987', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mcr2/ros2_utilities_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mcr2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mcr2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/mcr2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mcr2-virtual-machine:@/tmp/.ICE-unix/1938,unix/mcr2-virtual-machine:/tmp/.ICE-unix/1938', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d5a14666_999b_4cbd_89c1_c894de7ad20d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZQHKM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mcr2/robotica_inteligente_eq5/install/signal_msg:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos/share', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/prefix_override:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages:/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/mcr2/ros2_utilities_ws/install/aruco_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mcr2/robotica_inteligente_eq5/install/signal_msg:/home/mcr2/ros2_utilities_ws/install/ros_ign_interfaces:/home/mcr2/ros2_utilities_ws/install/ros_ign:/home/mcr2/ros2_utilities_ws/install/ros_ign_image:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo_demos:/home/mcr2/ros2_utilities_ws/install/ros_ign_gazebo:/home/mcr2/ros2_utilities_ws/install/ros_ign_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim_demos:/home/mcr2/ros2_utilities_ws/install/ros_gz_sim:/home/mcr2/ros2_utilities_ws/install/ros_gz_image:/home/mcr2/ros2_utilities_ws/install/ros_gz_bridge:/home/mcr2/ros2_utilities_ws/install/ros_gz_interfaces:/home/mcr2/ros2_utilities_ws/install/micro_ros_setup:/home/mcr2/ros2_utilities_ws/install/micro_ros_agent:/home/mcr2/ros2_utilities_ws/install/micro_ros_msgs:/home/mcr2/ros2_utilities_ws/install/aruco_ros:/home/mcr2/ros2_utilities_ws/install/aruco_msgs:/home/mcr2/ros2_utilities_ws/install/aruco'}, 'shell': False}
+[21.516573] (-) TimerEvent: {}
+[21.625531] (-) TimerEvent: {}
+[21.734237] (-) TimerEvent: {}
+[21.843590] (-) TimerEvent: {}
+[21.954082] (-) TimerEvent: {}
+[22.063437] (-) TimerEvent: {}
+[22.174510] (-) TimerEvent: {}
+[22.215499] (mini_challenge_2) StdoutLine: {'line': b'running egg_info\n'}
+[22.216212] (mini_challenge_2) StdoutLine: {'line': b'creating ../../../build/mini_challenge_2/mini_challenge_2.egg-info\n'}
+[22.216468] (mini_challenge_2) StdoutLine: {'line': b'writing ../../../build/mini_challenge_2/mini_challenge_2.egg-info/PKG-INFO\n'}
+[22.217195] (mini_challenge_2) StdoutLine: {'line': b'writing dependency_links to ../../../build/mini_challenge_2/mini_challenge_2.egg-info/dependency_links.txt\n'}
+[22.222836] (mini_challenge_2) StdoutLine: {'line': b'writing entry points to ../../../build/mini_challenge_2/mini_challenge_2.egg-info/entry_points.txt\n'}
+[22.223425] (mini_challenge_2) StdoutLine: {'line': b'writing requirements to ../../../build/mini_challenge_2/mini_challenge_2.egg-info/requires.txt\n'}
+[22.223658] (mini_challenge_2) StdoutLine: {'line': b'writing top-level names to ../../../build/mini_challenge_2/mini_challenge_2.egg-info/top_level.txt\n'}
+[22.225641] (mini_challenge_2) StdoutLine: {'line': b"writing manifest file '../../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'\n"}
+[22.231017] (mini_challenge_2) StdoutLine: {'line': b"reading manifest file '../../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'\n"}
+[22.231591] (mini_challenge_2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[22.232285] (mini_challenge_2) StdoutLine: {'line': b"writing manifest file '../../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'\n"}
+[22.232995] (mini_challenge_2) StdoutLine: {'line': b'running build\n'}
+[22.233486] (mini_challenge_2) StdoutLine: {'line': b'running build_py\n'}
+[22.234288] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build\n'}
+[22.234591] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib\n'}
+[22.234808] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[22.235520] (mini_challenge_2) StdoutLine: {'line': b'copying mini_challenge_2/PointGenerator.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[22.235774] (mini_challenge_2) StdoutLine: {'line': b'copying mini_challenge_2/Controller.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[22.237066] (mini_challenge_2) StdoutLine: {'line': b'copying mini_challenge_2/Odometry.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[22.237526] (mini_challenge_2) StdoutLine: {'line': b'copying mini_challenge_2/__init__.py -> /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[22.238457] (mini_challenge_2) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[22.238799] (mini_challenge_2) StderrLine: {'line': b'  warnings.warn(\n'}
+[22.239043] (mini_challenge_2) StdoutLine: {'line': b'running install\n'}
+[22.239342] (mini_challenge_2) StdoutLine: {'line': b'running install_lib\n'}
+[22.240025] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[22.240912] (mini_challenge_2) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2/PointGenerator.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[22.241284] (mini_challenge_2) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2/Controller.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[22.241905] (mini_challenge_2) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2/Odometry.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[22.242159] (mini_challenge_2) StdoutLine: {'line': b'copying /home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/build/lib/mini_challenge_2/__init__.py -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[22.242999] (mini_challenge_2) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/PointGenerator.py to PointGenerator.cpython-310.pyc\n'}
+[22.250168] (mini_challenge_2) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/Controller.py to Controller.cpython-310.pyc\n'}
+[22.250562] (mini_challenge_2) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/Odometry.py to Odometry.cpython-310.pyc\n'}
+[22.251299] (mini_challenge_2) StdoutLine: {'line': b'byte-compiling /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/__init__.py to __init__.cpython-310.pyc\n'}
+[22.251693] (mini_challenge_2) StdoutLine: {'line': b'running install_data\n'}
+[22.252594] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/ament_index\n'}
+[22.253630] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/ament_index/resource_index\n'}
+[22.253740] (mini_challenge_2) StdoutLine: {'line': b'creating /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/ament_index/resource_index/packages\n'}
+[22.253864] (mini_challenge_2) StdoutLine: {'line': b'copying resource/mini_challenge_2 -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/ament_index/resource_index/packages\n'}
+[22.254594] (mini_challenge_2) StdoutLine: {'line': b'copying package.xml -> /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/share/mini_challenge_2\n'}
+[22.254932] (mini_challenge_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.259586] (mini_challenge_2) StdoutLine: {'line': b'Copying ../../../build/mini_challenge_2/mini_challenge_2.egg-info to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2-0.0.0-py3.10.egg-info\n'}
+[22.270244] (mini_challenge_2) StdoutLine: {'line': b'running install_scripts\n'}
+[22.284079] (-) TimerEvent: {}
+[22.335186] (mini_challenge_2) StdoutLine: {'line': b'Installing Controller script to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[22.335729] (mini_challenge_2) StdoutLine: {'line': b'Installing Odometry script to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[22.335969] (mini_challenge_2) StdoutLine: {'line': b'Installing PointGenerator script to /home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[22.336186] (mini_challenge_2) StdoutLine: {'line': b"writing list of installed files to '/home/mcr2/robotica_inteligente_eq5/build/mini_challenge_2/install.log'\n"}
+[22.393040] (-) TimerEvent: {}
+[22.408548] (mini_challenge_2) CommandEnded: {'returncode': 0}
+[22.536932] (-) TimerEvent: {}
+[22.557127] (mini_challenge_2) JobEnded: {'identifier': 'mini_challenge_2', 'rc': 0}
+[22.561051] (-) EventReactorShutdown: {}

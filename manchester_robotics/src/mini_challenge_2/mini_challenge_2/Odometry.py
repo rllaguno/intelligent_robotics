@@ -14,7 +14,7 @@ class My_Publisher(Node):
         self.subL = self.create_subscription(Float32, "/VelocityEncL", self.timer_callback_l, qos_profile)
         self.subR = self.create_subscription(Float32, "/VelocityEncR", self.timer_callback_r, qos_profile)
         
-        self.timer_period_controller = 0.1
+        self.timer_period_controller = 0.18
         self.timer_controller = self.create_timer(self.timer_period_controller, self.timer_callback_odometry)
         self.get_logger().info('|Odometry node successfully initialized|')
 
@@ -25,9 +25,9 @@ class My_Publisher(Node):
         self.msg_pose = Pose2D()
 
     def timer_callback_odometry(self):
-        self.msg_pose.x = self.msg_pose.x + self.r * ((self.left_velocity + self.right_velocity) / 2) * np.cos(self.msg_pose.theta) * self.timer_period_controller
-        self.msg_pose.y = self.msg_pose.y + self.r * ((self.left_velocity + self.right_velocity) / 2) * np.sin(self.msg_pose.theta) * self.timer_period_controller
-        self.msg_pose.theta = self.msg_pose.theta + ((self.right_velocity - self.left_velocity) / self.l) * self.r * self.timer_period_controller
+        self.msg_pose.x = self.msg_pose.x + (self.r * ((self.left_velocity + self.right_velocity) / 2) * np.cos(self.msg_pose.theta) * self.timer_period_controller)
+        self.msg_pose.y = self.msg_pose.y + (self.r * ((self.left_velocity + self.right_velocity) / 2) * np.sin(self.msg_pose.theta) * self.timer_period_controller)
+        self.msg_pose.theta = self.msg_pose.theta + (((self.right_velocity - self.left_velocity) / self.l) * self.r * self.timer_period_controller)
         self.odom.publish(self.msg_pose)
 
     def timer_callback_l(self,msg):

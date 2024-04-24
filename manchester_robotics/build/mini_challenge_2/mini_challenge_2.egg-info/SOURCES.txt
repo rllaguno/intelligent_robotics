@@ -9,6 +9,7 @@ setup.py
 ../../build/mini_challenge_2/mini_challenge_2.egg-info/requires.txt
 ../../build/mini_challenge_2/mini_challenge_2.egg-info/top_level.txt
 ../../build/mini_challenge_2/mini_challenge_2.egg-info/zip-safe
+launch/mini2_launch.py
 mini_challenge_2/Controller.py
 mini_challenge_2/Odometry.py
 mini_challenge_2/PointGenerator.py

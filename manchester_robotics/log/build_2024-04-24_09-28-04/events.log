@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (mini_challenge_1) JobQueued: {'identifier': 'mini_challenge_1', 'dependencies': OrderedDict()}
+[0.000440] (signal_msg) JobQueued: {'identifier': 'signal_msg', 'dependencies': OrderedDict()}
+[0.000524] (mini_challenge_2) JobQueued: {'identifier': 'mini_challenge_2', 'dependencies': OrderedDict([('signal_msg', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg')])}
+[0.000705] (signal_msg) JobStarted: {'identifier': 'signal_msg'}
+[0.026719] (mini_challenge_1) JobStarted: {'identifier': 'mini_challenge_1'}
+[0.034437] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'cmake'}
+[0.072730] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'build'}
+[0.073869] (signal_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg', '--', '-j4', '-l4'], 'cwd': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cesarbenavides'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent/lib:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cesarbenavides'), ('OLDPWD', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cesarbenavides'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cesarbenavides'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/cesarbenavides/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cesarbenavides-MacBookAir:@/tmp/.ICE-unix/1527,unix/cesarbenavides-MacBookAir:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3395ef4_e836_4292_aac6_ba5b44b4d8d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7E4SM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[0.098449] (-) TimerEvent: {}
+[0.198930] (-) TimerEvent: {}
+[0.299319] (-) TimerEvent: {}
+[0.399755] (-) TimerEvent: {}
+[0.500184] (-) TimerEvent: {}
+[0.600760] (-) TimerEvent: {}
+[0.701433] (-) TimerEvent: {}
+[0.801831] (-) TimerEvent: {}
+[0.902316] (-) TimerEvent: {}
+[1.002671] (-) TimerEvent: {}
+[1.103099] (-) TimerEvent: {}
+[1.203558] (-) TimerEvent: {}
+[1.303978] (-) TimerEvent: {}
+[1.404491] (-) TimerEvent: {}
+[1.505282] (-) TimerEvent: {}
+[1.605982] (-) TimerEvent: {}
+[1.706702] (-) TimerEvent: {}
+[1.807356] (-) TimerEvent: {}
+[1.907895] (-) TimerEvent: {}
+[2.008598] (-) TimerEvent: {}
+[2.049283] (signal_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.108726] (-) TimerEvent: {}
+[2.209222] (-) TimerEvent: {}
+[2.309797] (-) TimerEvent: {}
+[2.410238] (-) TimerEvent: {}
+[2.510576] (-) TimerEvent: {}
+[2.611059] (-) TimerEvent: {}
+[2.711600] (-) TimerEvent: {}
+[2.715389] (signal_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.811726] (-) TimerEvent: {}
+[2.912134] (-) TimerEvent: {}
+[2.928608] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.952007] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.012340] (-) TimerEvent: {}
+[3.050433] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.112500] (-) TimerEvent: {}
+[3.161766] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.204055] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.209778] (mini_challenge_1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mini_challenge_1', 'build', '--build-base', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build', 'install', '--record', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cesarbenavides', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent/lib:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cesarbenavides', 'OLDPWD': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1560', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cesarbenavides/ros2_utilities_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cesarbenavides', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cesarbenavides', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/cesarbenavides/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cesarbenavides-MacBookAir:@/tmp/.ICE-unix/1527,unix/cesarbenavides-MacBookAir:/tmp/.ICE-unix/1527', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3395ef4_e836_4292_aac6_ba5b44b4d8d8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7E4SM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/prefix_override:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs'}, 'shell': False}
+[3.212575] (-) TimerEvent: {}
+[3.312941] (-) TimerEvent: {}
+[3.318899] (signal_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.413053] (-) TimerEvent: {}
+[3.513421] (-) TimerEvent: {}
+[3.531794] (mini_challenge_1) StdoutLine: {'line': b'running egg_info\n'}
+[3.533368] (mini_challenge_1) StdoutLine: {'line': b'writing ../../build/mini_challenge_1/mini_challenge_1.egg-info/PKG-INFO\n'}
+[3.533789] (mini_challenge_1) StdoutLine: {'line': b'writing dependency_links to ../../build/mini_challenge_1/mini_challenge_1.egg-info/dependency_links.txt\n'}
+[3.534185] (mini_challenge_1) StdoutLine: {'line': b'writing entry points to ../../build/mini_challenge_1/mini_challenge_1.egg-info/entry_points.txt\n'}
+[3.534603] (mini_challenge_1) StdoutLine: {'line': b'writing requirements to ../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt\n'}
+[3.534922] (mini_challenge_1) StdoutLine: {'line': b'writing top-level names to ../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt\n'}
+[3.538541] (mini_challenge_1) StdoutLine: {'line': b"reading manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'\n"}
+[3.559333] (mini_challenge_1) StdoutLine: {'line': b"writing manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'\n"}
+[3.559891] (mini_challenge_1) StdoutLine: {'line': b'running build\n'}
+[3.560088] (mini_challenge_1) StdoutLine: {'line': b'running build_py\n'}
+[3.560309] (mini_challenge_1) StdoutLine: {'line': b'running install\n'}
+[3.560903] (mini_challenge_1) StdoutLine: {'line': b'running install_lib\n'}
+[3.563479] (mini_challenge_1) StdoutLine: {'line': b'running install_data\n'}
+[3.563867] (mini_challenge_1) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.566802] (mini_challenge_1) StdoutLine: {'line': b"removing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.567373] (mini_challenge_1) StdoutLine: {'line': b'Copying ../../build/mini_challenge_1/mini_challenge_1.egg-info to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info\n'}
+[3.569700] (mini_challenge_1) StdoutLine: {'line': b'running install_scripts\n'}
+[3.603106] (mini_challenge_1) StdoutLine: {'line': b'Installing Controller script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1\n'}
+[3.603438] (mini_challenge_1) StdoutLine: {'line': b'Installing PathGenerator script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1\n'}
+[3.603744] (mini_challenge_1) StdoutLine: {'line': b"writing list of installed files to '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log'\n"}
+[3.613542] (-) TimerEvent: {}
+[3.644701] (mini_challenge_1) CommandEnded: {'returncode': 0}
+[3.713637] (-) TimerEvent: {}
+[3.753420] (mini_challenge_1) JobEnded: {'identifier': 'mini_challenge_1', 'rc': 0}
+[3.813766] (-) TimerEvent: {}
+[3.856416] (signal_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.913891] (-) TimerEvent: {}
+[4.014277] (-) TimerEvent: {}
+[4.114844] (-) TimerEvent: {}
+[4.215168] (-) TimerEvent: {}
+[4.315483] (-) TimerEvent: {}
+[4.394818] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.415584] (-) TimerEvent: {}
+[4.515883] (-) TimerEvent: {}
+[4.578455] (signal_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.613183] (signal_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.615998] (-) TimerEvent: {}
+[4.701537] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.701737] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.701838] (signal_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.716109] (-) TimerEvent: {}
+[4.770613] (signal_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.816266] (-) TimerEvent: {}
+[4.905813] (signal_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.907950] (signal_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.914305] (signal_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.916354] (-) TimerEvent: {}
+[5.016661] (-) TimerEvent: {}
+[5.117051] (-) TimerEvent: {}
+[5.217551] (-) TimerEvent: {}
+[5.318153] (-) TimerEvent: {}
+[5.368005] (signal_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[5.382978] (signal_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg\n'}
+[5.418251] (-) TimerEvent: {}
+[5.518704] (-) TimerEvent: {}
+[5.527859] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_generator_c\x1b[0m\n'}
+[5.556090] (signal_msg) StdoutLine: {'line': b'[  3%] Built target signal_msg__cpp\n'}
+[5.577588] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.589330] (signal_msg) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_signal_msg\n'}
+[5.596113] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.606401] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.614765] (signal_msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_c.dir/rosidl_generator_c/signal_msg/msg/detail/signal_decomposed__functions.c.o\x1b[0m\n'}
+[5.618823] (-) TimerEvent: {}
+[5.719227] (-) TimerEvent: {}
+[5.737537] (signal_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/signal_msg/msg/detail/dds_fastrtps/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[5.738927] (signal_msg) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/signal_msg/msg/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[5.739194] (signal_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/signal_msg/msg/detail/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[5.819334] (-) TimerEvent: {}
+[5.919830] (-) TimerEvent: {}
+[6.020385] (-) TimerEvent: {}
+[6.121058] (-) TimerEvent: {}
+[6.221799] (-) TimerEvent: {}
+[6.322490] (-) TimerEvent: {}
+[6.422937] (-) TimerEvent: {}
+[6.523363] (-) TimerEvent: {}
+[6.623873] (-) TimerEvent: {}
+[6.724448] (-) TimerEvent: {}
+[6.824958] (-) TimerEvent: {}
+[6.926498] (-) TimerEvent: {}
+[7.027178] (-) TimerEvent: {}
+[7.128478] (-) TimerEvent: {}
+[7.229263] (-) TimerEvent: {}
+[7.329646] (-) TimerEvent: {}
+[7.430082] (-) TimerEvent: {}
+[7.530484] (-) TimerEvent: {}
+[7.630900] (-) TimerEvent: {}
+[7.714012] (signal_msg) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libsignal_msg__rosidl_generator_c.so\x1b[0m\n'}
+[7.731062] (-) TimerEvent: {}
+[7.831483] (-) TimerEvent: {}
+[7.931929] (-) TimerEvent: {}
+[8.032633] (-) TimerEvent: {}
+[8.133217] (-) TimerEvent: {}
+[8.233694] (-) TimerEvent: {}
+[8.334292] (-) TimerEvent: {}
+[8.434654] (-) TimerEvent: {}
+[8.489225] (signal_msg) StdoutLine: {'line': b'[ 22%] Built target signal_msg__rosidl_generator_c\n'}
+[8.534797] (-) TimerEvent: {}
+[8.635279] (-) TimerEvent: {}
+[8.735724] (-) TimerEvent: {}
+[8.836171] (-) TimerEvent: {}
+[8.936603] (-) TimerEvent: {}
+[9.014103] (signal_msg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.036724] (-) TimerEvent: {}
+[9.137722] (-) TimerEvent: {}
+[9.162226] (signal_msg) StdoutLine: {'line': b'[ 29%] Built target signal_msg__rosidl_typesupport_cpp\n'}
+[9.180929] (signal_msg) StdoutLine: {'line': b'running egg_info\n'}
+[9.184579] (signal_msg) StdoutLine: {'line': b'writing signal_msg.egg-info/PKG-INFO\n'}
+[9.186195] (signal_msg) StdoutLine: {'line': b'writing dependency_links to signal_msg.egg-info/dependency_links.txt\n'}
+[9.187632] (signal_msg) StdoutLine: {'line': b'writing top-level names to signal_msg.egg-info/top_level.txt\n'}
+[9.189158] (signal_msg) StdoutLine: {'line': b"reading manifest file 'signal_msg.egg-info/SOURCES.txt'\n"}
+[9.193994] (signal_msg) StdoutLine: {'line': b"writing manifest file 'signal_msg.egg-info/SOURCES.txt'\n"}
+[9.206525] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.237882] (-) TimerEvent: {}
+[9.239811] (signal_msg) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.256304] (signal_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/signal_msg/msg/detail/signal_decomposed__type_support_c.cpp.o\x1b[0m\n'}
+[9.256861] (signal_msg) StdoutLine: {'line': b'[ 35%] Built target ament_cmake_python_build_signal_msg_egg\n'}
+[9.279157] (signal_msg) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.304012] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.318525] (signal_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/signal_msg/msg/detail/signal_decomposed__type_support.c.o\x1b[0m\n'}
+[9.337997] (-) TimerEvent: {}
+[9.379249] (signal_msg) StdoutLine: {'line': b'[ 45%] Built target signal_msg__rosidl_typesupport_introspection_cpp\n'}
+[9.413249] (signal_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libsignal_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.421517] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_c\x1b[0m\n'}
+[9.438130] (-) TimerEvent: {}
+[9.442858] (signal_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/signal_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/signal_msg/msg/signal_decomposed__type_support.cpp.o\x1b[0m\n'}
+[9.483337] (signal_msg) StdoutLine: {'line': b'[ 54%] Built target signal_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[9.499630] (signal_msg) StdoutLine: {'line': b'[ 58%] Built target signal_msg__rosidl_typesupport_introspection_c\n'}
+[9.512001] (signal_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.538254] (-) TimerEvent: {}
+[9.569287] (signal_msg) StdoutLine: {'line': b'[ 64%] Built target signal_msg__rosidl_typesupport_c\n'}
+[9.638349] (-) TimerEvent: {}
+[9.738693] (-) TimerEvent: {}
+[9.800235] (signal_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libsignal_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.838806] (-) TimerEvent: {}
+[9.938376] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg__rosidl_typesupport_fastrtps_c\n'}
+[9.938870] (-) TimerEvent: {}
+[9.963179] (signal_msg) StdoutLine: {'line': b'[ 70%] Built target signal_msg\n'}
+[9.989542] (signal_msg) StdoutLine: {'line': b'[ 74%] Built target signal_msg__py\n'}
+[10.018395] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_generator_py\x1b[0m\n'}
+[10.039060] (-) TimerEvent: {}
+[10.130135] (signal_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_generator_py.dir/rosidl_generator_py/signal_msg/msg/_signal_decomposed_s.c.o\x1b[0m\n'}
+[10.139180] (-) TimerEvent: {}
+[10.239554] (-) TimerEvent: {}
+[10.340045] (-) TimerEvent: {}
+[10.440434] (-) TimerEvent: {}
+[10.540983] (-) TimerEvent: {}
+[10.641670] (-) TimerEvent: {}
+[10.698906] (signal_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/libsignal_msg__rosidl_generator_py.so\x1b[0m\n'}
+[10.741796] (-) TimerEvent: {}
+[10.797295] (signal_msg) StdoutLine: {'line': b'[ 80%] Built target signal_msg__rosidl_generator_py\n'}
+[10.814556] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.816917] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.817179] (signal_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target signal_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.836657] (signal_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.840822] (signal_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.841254] (signal_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/signal_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.841869] (-) TimerEvent: {}
+[10.942601] (-) TimerEvent: {}
+[11.043097] (-) TimerEvent: {}
+[11.061883] (signal_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.063818] (signal_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.091041] (signal_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.140982] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_c__pyext\n'}
+[11.143221] (-) TimerEvent: {}
+[11.143800] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.161954] (signal_msg) StdoutLine: {'line': b'[100%] Built target signal_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[11.176398] (signal_msg) CommandEnded: {'returncode': 0}
+[11.243318] (-) TimerEvent: {}
+[11.250568] (signal_msg) JobProgress: {'identifier': 'signal_msg', 'progress': 'install'}
+[11.261742] (signal_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg'], 'cwd': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'cesarbenavides'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent/lib:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cesarbenavides'), ('OLDPWD', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cesarbenavides'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cesarbenavides'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/cesarbenavides/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cesarbenavides-MacBookAir:@/tmp/.ICE-unix/1527,unix/cesarbenavides-MacBookAir:/tmp/.ICE-unix/1527'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3395ef4_e836_4292_aac6_ba5b44b4d8d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7E4SM2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/signal_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[11.272638] (signal_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.273173] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/rosidl_interfaces/signal_msg\n'}
+[11.273429] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.273632] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.273799] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.274009] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.h\n'}
+[11.274213] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.274377] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.h\n'}
+[11.274592] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.h\n'}
+[11.274764] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.h\n'}
+[11.274973] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.c\n'}
+[11.275135] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/library_path.sh\n'}
+[11.275245] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/library_path.dsv\n'}
+[11.316921] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so\n'}
+[11.320494] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so" to ""\n'}
+[11.320937] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.321177] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.321351] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.321521] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_c.h\n'}
+[11.321729] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.321899] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.322320] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.322686] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.323004] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.323304] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.hpp\n'}
+[11.323530] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.323679] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__builder.hpp\n'}
+[11.323821] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.hpp\n'}
+[11.324018] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__traits.hpp\n'}
+[11.324236] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.324431] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.324624] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.324849] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.325070] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/dds_fastrtps\n'}
+[11.325345] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.325735] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.325918] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.326087] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.326303] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.326483] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.326646] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.326811] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.c\n'}
+[11.327012] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_c.h\n'}
+[11.327178] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so\n'}
+[11.327339] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.327844] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so\n'}
+[11.328555] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so" to ""\n'}
+[11.328901] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg\n'}
+[11.329177] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg\n'}
+[11.329309] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail\n'}
+[11.329464] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.329680] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.cpp\n'}
+[11.329919] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.330575] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.331670] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so\n'}
+[11.332260] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.332539] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/pythonpath.sh\n'}
+[11.332719] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/pythonpath.dsv\n'}
+[11.332983] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info\n'}
+[11.333205] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.333435] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.333638] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.333843] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.334058] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg\n'}
+[11.334299] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/libsignal_msg__rosidl_generator_py.so\n'}
+[11.334559] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg\n'}
+[11.334786] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed_s.c\n'}
+[11.335019] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py\n'}
+[11.335188] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py\n'}
+[11.335394] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.335579] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.335756] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.335922] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py\n'}
+[11.336085] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c\n'}
+[11.336253] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.336417] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.343423] (-) TimerEvent: {}
+[11.424436] (signal_msg) StdoutLine: {'line': b"Listing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg'...\n"}
+[11.424727] (signal_msg) StdoutLine: {'line': b"Compiling '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py'...\n"}
+[11.424918] (signal_msg) StdoutLine: {'line': b"Listing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg'...\n"}
+[11.425086] (signal_msg) StdoutLine: {'line': b"Compiling '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py'...\n"}
+[11.425244] (signal_msg) StdoutLine: {'line': b"Compiling '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py'...\n"}
+[11.431265] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.431758] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.432133] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.432714] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.433107] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.433692] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.434858] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so\n'}
+[11.435471] (signal_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so" to ""\n'}
+[11.435739] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/msg/SignalDecomposed.idl\n'}
+[11.435970] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/msg/SignalDecomposed.msg\n'}
+[11.436183] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/package_run_dependencies/signal_msg\n'}
+[11.436388] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/parent_prefix_path/signal_msg\n'}
+[11.436553] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/ament_prefix_path.sh\n'}
+[11.436758] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/ament_prefix_path.dsv\n'}
+[11.436950] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/path.sh\n'}
+[11.437158] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/path.dsv\n'}
+[11.437361] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.bash\n'}
+[11.437609] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.sh\n'}
+[11.437781] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.zsh\n'}
+[11.437979] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.dsv\n'}
+[11.438143] (signal_msg) StdoutLine: {'line': b'-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/package.dsv\n'}
+[11.438342] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/packages/signal_msg\n'}
+[11.438711] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport.cmake\n'}
+[11.438943] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.439150] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.439341] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.440100] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cppExport.cmake\n'}
+[11.440426] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.440650] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.443503] (-) TimerEvent: {}
+[11.446428] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.446900] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.457288] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport.cmake\n'}
+[11.457546] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.458007] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.458234] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.459240] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport.cmake\n'}
+[11.459414] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.460262] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport.cmake\n'}
+[11.460421] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.460581] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.460743] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.460894] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.461049] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.461228] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.461324] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.461412] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.461498] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msgConfig.cmake\n'}
+[11.461583] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msgConfig-version.cmake\n'}
+[11.461670] (signal_msg) StdoutLine: {'line': b'-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/package.xml\n'}
+[11.464741] (signal_msg) CommandEnded: {'returncode': 0}
+[11.543614] (-) TimerEvent: {}
+[11.575586] (signal_msg) JobEnded: {'identifier': 'signal_msg', 'rc': 0}
+[11.577043] (mini_challenge_2) JobStarted: {'identifier': 'mini_challenge_2'}
+[11.643737] (-) TimerEvent: {}
+[11.744057] (-) TimerEvent: {}
+[11.844397] (-) TimerEvent: {}
+[11.944768] (-) TimerEvent: {}
+[12.045195] (-) TimerEvent: {}
+[12.145541] (-) TimerEvent: {}
+[12.245920] (-) TimerEvent: {}
+[12.346301] (-) TimerEvent: {}
+[12.446687] (-) TimerEvent: {}
+[12.462300] (mini_challenge_2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mini_challenge_2', 'build', '--build-base', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build', 'install', '--record', '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/mini_challenge_2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cesarbenavides', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent/lib:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cesarbenavides', 'OLDPWD': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'SYSTEMD_EXEC_PID': '1560', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/cesarbenavides/ros2_utilities_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'cesarbenavides', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cesarbenavides', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/cesarbenavides/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/cesarbenavides-MacBookAir:@/tmp/.ICE-unix/1527,unix/cesarbenavides-MacBookAir:/tmp/.ICE-unix/1527', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3395ef4_e836_4292_aac6_ba5b44b4d8d8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7E4SM2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/prefix_override:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages:/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_setup:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_agent:/home/cesarbenavides/ros2_utilities_ws/install/micro_ros_msgs'}, 'shell': False}
+[12.546817] (-) TimerEvent: {}
+[12.647159] (-) TimerEvent: {}
+[12.747495] (-) TimerEvent: {}
+[12.769380] (mini_challenge_2) StdoutLine: {'line': b'running egg_info\n'}
+[12.770525] (mini_challenge_2) StdoutLine: {'line': b'writing ../../build/mini_challenge_2/mini_challenge_2.egg-info/PKG-INFO\n'}
+[12.770902] (mini_challenge_2) StdoutLine: {'line': b'writing dependency_links to ../../build/mini_challenge_2/mini_challenge_2.egg-info/dependency_links.txt\n'}
+[12.771263] (mini_challenge_2) StdoutLine: {'line': b'writing entry points to ../../build/mini_challenge_2/mini_challenge_2.egg-info/entry_points.txt\n'}
+[12.771527] (mini_challenge_2) StdoutLine: {'line': b'writing requirements to ../../build/mini_challenge_2/mini_challenge_2.egg-info/requires.txt\n'}
+[12.771775] (mini_challenge_2) StdoutLine: {'line': b'writing top-level names to ../../build/mini_challenge_2/mini_challenge_2.egg-info/top_level.txt\n'}
+[12.775413] (mini_challenge_2) StdoutLine: {'line': b"reading manifest file '../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'\n"}
+[12.827874] (mini_challenge_2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[12.829147] (mini_challenge_2) StdoutLine: {'line': b"writing manifest file '../../build/mini_challenge_2/mini_challenge_2.egg-info/SOURCES.txt'\n"}
+[12.829397] (mini_challenge_2) StdoutLine: {'line': b'running build\n'}
+[12.829529] (mini_challenge_2) StdoutLine: {'line': b'running build_py\n'}
+[12.829974] (mini_challenge_2) StdoutLine: {'line': b'copying mini_challenge_2/Controller.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2\n'}
+[12.830508] (mini_challenge_2) StdoutLine: {'line': b'running install\n'}
+[12.831132] (mini_challenge_2) StdoutLine: {'line': b'running install_lib\n'}
+[12.832768] (mini_challenge_2) StdoutLine: {'line': b'copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/build/lib/mini_challenge_2/Controller.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2\n'}
+[12.833864] (mini_challenge_2) StdoutLine: {'line': b'byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2/Controller.py to Controller.cpython-310.pyc\n'}
+[12.835951] (mini_challenge_2) StdoutLine: {'line': b'running install_data\n'}
+[12.836170] (mini_challenge_2) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.839063] (mini_challenge_2) StdoutLine: {'line': b"removing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.839582] (mini_challenge_2) StdoutLine: {'line': b'Copying ../../build/mini_challenge_2/mini_challenge_2.egg-info to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/python3.10/site-packages/mini_challenge_2-0.0.0-py3.10.egg-info\n'}
+[12.841591] (mini_challenge_2) StdoutLine: {'line': b'running install_scripts\n'}
+[12.847628] (-) TimerEvent: {}
+[12.869739] (mini_challenge_2) StdoutLine: {'line': b'Installing Controller script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[12.870004] (mini_challenge_2) StdoutLine: {'line': b'Installing Odometry script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[12.870235] (mini_challenge_2) StdoutLine: {'line': b'Installing PointGenerator script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_2/lib/mini_challenge_2\n'}
+[12.870885] (mini_challenge_2) StdoutLine: {'line': b"writing list of installed files to '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_2/install.log'\n"}
+[12.905980] (mini_challenge_2) CommandEnded: {'returncode': 0}
+[12.916343] (mini_challenge_2) JobEnded: {'identifier': 'mini_challenge_2', 'rc': 0}
+[12.917421] (-) EventReactorShutdown: {}

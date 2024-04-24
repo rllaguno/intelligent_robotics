@@ -11,7 +11,7 @@ class My_Publisher(Node):
         self.declare_parameter('numfigure', 10)
         self.point = self.create_publisher(Point, '/Point', 10)
         
-        self.timer_period_point_generator = 0.1
+        self.timer_period_point_generator = 0.18
         self.timer_point_generator = self.create_timer(self.timer_period_point_generator, self.timer_callback_point)
 
         qos_profile = rclpy.qos.qos_profile_sensor_data
@@ -19,7 +19,7 @@ class My_Publisher(Node):
         self.get_logger().info('|Point Generator node successfully initialized|')
 
         self.msg_point = Point()
-        self.flag = 10
+        self.flag = 0
         self.figure = 10
         self.msg_point.z = 1.0
         

@@ -8,12 +8,12 @@ def nothing(x):
 cap = cv2.VideoCapture(0)
 
 cv2.namedWindow("Tracking")
-cv2.createTrackbar("LH", "Tracking", 0, 255, nothing) #LOWER HUE
-cv2.createTrackbar("LV", "Tracking", 0, 255, nothing) #VALUE
-cv2.createTrackbar("LS", "Tracking", 0, 255, nothing) #SATURATION
-cv2.createTrackbar("UH", "Tracking", 0, 255, nothing) #UPPER HUE
-cv2.createTrackbar("UV", "Tracking", 0, 255, nothing) #VALUE
-cv2.createTrackbar("US", "Tracking", 0, 255, nothing) #SATURATION
+cv2.createTrackbar("LH", "Tracking", 40, 255, lambda x: None) # LOWER HUE
+cv2.createTrackbar("LV", "Tracking", 83, 255, lambda x: None) # VALUE
+cv2.createTrackbar("LS", "Tracking", 26, 255, lambda x: None) # SATURATION
+cv2.createTrackbar("UH", "Tracking", 255, 255, lambda x: None) # UPPER HUE
+cv2.createTrackbar("UV", "Tracking", 255, 255, lambda x: None) # VALUE
+cv2.createTrackbar("US", "Tracking", 255, 255, lambda x: None) # SATURATION
 
 font = cv2.FONT_HERSHEY_COMPLEX
 

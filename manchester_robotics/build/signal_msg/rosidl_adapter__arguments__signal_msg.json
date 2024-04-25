@@ -1,0 +1,6 @@
+{
+  "package_name": "signal_msg",
+  "non_idl_tuples": [
+    "/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/src/signal_msg:msg/SignalDecomposed.msg"
+  ]
+}

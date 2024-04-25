@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/mini_challenge_1/mini_challenge_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/mini_challenge_1/mini_challenge_1.egg-info/dependency_links.txt
+writing entry points to ../../build/mini_challenge_1/mini_challenge_1.egg-info/entry_points.txt
+writing requirements to ../../build/mini_challenge_1/mini_challenge_1.egg-info/requires.txt
+writing top-level names to ../../build/mini_challenge_1/mini_challenge_1.egg-info/top_level.txt
+reading manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/mini_challenge_1/mini_challenge_1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mini_challenge_1/PathGenerator.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1
+running install
+running install_lib
+copying /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/build/lib/mini_challenge_1/PathGenerator.py -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1
+byte-compiling /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1/PathGenerator.py to PathGenerator.cpython-310.pyc
+running install_data
+copying config/params.yaml -> /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/share/mini_challenge_1/config
+running install_egg_info
+removing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mini_challenge_1/mini_challenge_1.egg-info to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/python3.10/site-packages/mini_challenge_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Controller script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1
+Installing PathGenerator script to /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/mini_challenge_1/lib/mini_challenge_1
+writing list of installed files to '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/build/mini_challenge_1/install.log'

@@ -1,0 +1,9 @@
+int32 path
+float32 distance1
+float32 distance2
+float32 distance3
+float32 distance4
+float32 angle1
+float32 angle2
+float32 angle3
+float32 angle4

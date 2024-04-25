@@ -1,0 +1,138 @@
+[  9%] Built target signal_msg__cpp
+[ 12%] Built target signal_msg__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_signal_msg
+[ 22%] Built target signal_msg__rosidl_typesupport_fastrtps_c
+[ 32%] Built target signal_msg__rosidl_typesupport_introspection_c
+[ 41%] Built target signal_msg__rosidl_typesupport_c
+[ 51%] Built target signal_msg__rosidl_typesupport_introspection_cpp
+[ 61%] Built target signal_msg__rosidl_typesupport_cpp
+[ 70%] Built target signal_msg__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target signal_msg
+[ 74%] Built target signal_msg__py
+[ 80%] Built target signal_msg__rosidl_generator_py
+[ 87%] Built target signal_msg__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target signal_msg__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target signal_msg__rosidl_typesupport_c__pyext
+running egg_info
+writing signal_msg.egg-info/PKG-INFO
+writing dependency_links to signal_msg.egg-info/dependency_links.txt
+writing top-level names to signal_msg.egg-info/top_level.txt
+reading manifest file 'signal_msg.egg-info/SOURCES.txt'
+writing manifest file 'signal_msg.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_signal_msg_egg
+-- Install configuration: ""
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/rosidl_interfaces/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/library_path.sh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/library_path.dsv
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__builder.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__traits.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/dds_fastrtps
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.cpp
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/pythonpath.sh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/pythonpath.dsv
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info
+-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/libsignal_msg__rosidl_generator_py.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed_s.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg'...
+Listing '/home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg'...
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/msg/SignalDecomposed.idl
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/msg/SignalDecomposed.msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/package_run_dependencies/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/parent_prefix_path/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/path.sh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/environment/path.dsv
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.bash
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.sh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.zsh
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/local_setup.dsv
+-- Installing: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/package.dsv
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/ament_index/resource_index/packages/signal_msg
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msgConfig.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/cmake/signal_msgConfig-version.cmake
+-- Up-to-date: /home/cesarbenavides/robotica_inteligente_eq5/manchester_robotics/install/signal_msg/share/signal_msg/package.xml

@@ -1,0 +1,142 @@
+[0.309s] Invoking command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/robotica_inteligente_eq5/build/signal_msg -- -j16 -l16
+[0.409s] [  3%] Built target signal_msg__cpp
+[0.417s] [ 12%] Built target signal_msg__rosidl_generator_c
+[0.448s] [ 12%] Built target ament_cmake_python_copy_signal_msg
+[0.476s] [ 22%] Built target signal_msg__rosidl_typesupport_c
+[0.476s] [ 32%] Built target signal_msg__rosidl_typesupport_fastrtps_cpp
+[0.478s] [ 41%] Built target signal_msg__rosidl_typesupport_fastrtps_c
+[0.485s] [ 51%] Built target signal_msg__rosidl_typesupport_cpp
+[0.492s] [ 61%] Built target signal_msg__rosidl_typesupport_introspection_cpp
+[0.495s] [ 70%] Built target signal_msg__rosidl_typesupport_introspection_c
+[0.531s] [ 70%] Built target signal_msg
+[0.570s] [ 74%] Built target signal_msg__py
+[0.612s] [ 80%] Built target signal_msg__rosidl_generator_py
+[0.654s] [ 87%] Built target signal_msg__rosidl_typesupport_introspection_c__pyext
+[0.655s] [ 93%] Built target signal_msg__rosidl_typesupport_c__pyext
+[0.658s] [100%] Built target signal_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.830s] running egg_info
+[0.831s] writing signal_msg.egg-info/PKG-INFO
+[0.832s] writing dependency_links to signal_msg.egg-info/dependency_links.txt
+[0.833s] writing top-level names to signal_msg.egg-info/top_level.txt
+[0.838s] reading manifest file 'signal_msg.egg-info/SOURCES.txt'
+[0.838s] writing manifest file 'signal_msg.egg-info/SOURCES.txt'
+[0.882s] [100%] Built target ament_cmake_python_build_signal_msg_egg
+[0.906s] Invoked command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --build /home/mcr2/robotica_inteligente_eq5/build/signal_msg -- -j16 -l16
+[1.129s] Invoking command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/robotica_inteligente_eq5/build/signal_msg
+[1.132s] -- Install configuration: ""
+[1.133s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/rosidl_interfaces/signal_msg
+[1.134s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.134s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.135s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.h
+[1.136s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.136s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.h
+[1.137s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.h
+[1.138s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__functions.c
+[1.138s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.h
+[1.139s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_generator_c__visibility_control.h
+[1.139s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/library_path.sh
+[1.140s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/library_path.dsv
+[1.141s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_c.so
+[1.141s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.142s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.143s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.143s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.144s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_c.h
+[1.144s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_c.so
+[1.145s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.146s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.146s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.147s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__struct.hpp
+[1.147s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__traits.hpp
+[1.148s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__builder.hpp
+[1.149s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/signal_decomposed.hpp
+[1.149s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.150s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.150s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.151s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.152s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/dds_fastrtps
+[1.152s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_fastrtps_cpp.hpp
+[1.153s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_fastrtps_cpp.so
+[1.153s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.154s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.155s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.155s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.156s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_c.h
+[1.156s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.c
+[1.157s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_c.so
+[1.158s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_c.so
+[1.158s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg
+[1.159s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg
+[1.159s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail
+[1.160s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__type_support.cpp
+[1.161s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/include/signal_msg/signal_msg/msg/detail/signal_decomposed__rosidl_typesupport_introspection_cpp.hpp
+[1.161s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_introspection_cpp.so
+[1.162s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_typesupport_cpp.so
+[1.162s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/pythonpath.sh
+[1.163s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/pythonpath.dsv
+[1.164s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info
+[1.164s] -- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.165s] -- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/top_level.txt
+[1.165s] -- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.166s] -- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.167s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg
+[1.167s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.168s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.168s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.169s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.170s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_c.c
+[1.170s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/_signal_msg_s.ep.rosidl_typesupport_introspection_c.c
+[1.171s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/libsignal_msg__rosidl_generator_py.so
+[1.172s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg
+[1.172s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed_s.c
+[1.173s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/_signal_decomposed.py
+[1.173s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg/__init__.py
+[1.174s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/__init__.py
+[1.187s] Listing '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg'...
+[1.188s] Listing '/home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/msg'...
+[1.198s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.199s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.199s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/local/lib/python3.10/dist-packages/signal_msg/signal_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.200s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/lib/libsignal_msg__rosidl_generator_py.so
+[1.200s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/msg/SignalDecomposed.idl
+[1.201s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/msg/SignalDecomposed.msg
+[1.202s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/package_run_dependencies/signal_msg
+[1.203s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/parent_prefix_path/signal_msg
+[1.228s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/ament_prefix_path.sh
+[1.230s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/ament_prefix_path.dsv
+[1.234s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/path.sh
+[1.237s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/environment/path.dsv
+[1.241s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.bash
+[1.244s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.sh
+[1.246s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.zsh
+[1.247s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/local_setup.dsv
+[1.249s] -- Installing: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.dsv
+[1.250s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/ament_index/resource_index/packages/signal_msg
+[1.254s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport.cmake
+[1.260s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cExport-noconfig.cmake
+[1.266s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.271s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.272s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_cppExport.cmake
+[1.274s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.274s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.275s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport.cmake
+[1.277s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.280s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport.cmake
+[1.282s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cExport-noconfig.cmake
+[1.283s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport.cmake
+[1.286s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport.cmake
+[1.295s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.296s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport.cmake
+[1.304s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/export_signal_msg__rosidl_generator_pyExport-noconfig.cmake
+[1.304s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake-extras.cmake
+[1.306s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.315s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.319s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.323s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/ament_cmake_export_targets-extras.cmake
+[1.326s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.329s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.332s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msgConfig.cmake
+[1.335s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/cmake/signal_msgConfig-version.cmake
+[1.342s] -- Up-to-date: /home/mcr2/robotica_inteligente_eq5/install/signal_msg/share/signal_msg/package.xml
+[1.346s] Invoked command in '/home/mcr2/robotica_inteligente_eq5/build/signal_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mcr2/robotica_inteligente_eq5/install/mini_challenge_2:/opt/ros/humble /usr/bin/cmake --install /home/mcr2/robotica_inteligente_eq5/build/signal_msg

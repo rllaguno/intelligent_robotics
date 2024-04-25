@@ -2,7 +2,11 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, Pose2D, Point
 import rclpy.qos
+<<<<<<< HEAD
 from std_msgs.msg import Int32, Bool
+=======
+from std_msgs.msg import Int32
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
 import math 
 
 class My_Publisher(Node):
@@ -17,7 +21,7 @@ class My_Publisher(Node):
 
         self.subBandera = self.create_subscription(Bool, '/bandera', self.timer_callback_bandera, qos_profile)
         
-        self.timer_period_controller = 0.1
+        self.timer_period_controller = 0.18
         self.timer_controller = self.create_timer(self.timer_period_controller, self.timer_callback_controller)
         #self.timer_PID = self.create_timer(self.timer_period_controller, self.timer_callback_PID)
         self.get_logger().info('|Controller node successfully initialized|')
@@ -26,9 +30,14 @@ class My_Publisher(Node):
         self.msg_pose = Pose2D()
         self.msg_point = Point()
         self.msg_flag = Int32()
+<<<<<<< HEAD
         self.msg_bandera = Bool()
 
         self.flag_counter = 1
+=======
+
+        self.flag_counter = 0
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
         self.bandera = False
 
         ### Distance ###
@@ -46,9 +55,12 @@ class My_Publisher(Node):
         self.previousErrorDistance = 0
         self.integralAngle = 0
         self.previousErrorDAngle = 0
+<<<<<<< HEAD
 
     def timer_callback_bandera(self,msg):
         self.msg_bandera = msg.data
+=======
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
     
     def timer_callback_controller(self):
         angleTarget = 0
@@ -78,17 +90,25 @@ class My_Publisher(Node):
 
         self.errorAngle =  angleTarget - self.msg_pose.theta 
         print("Error angle: " + str(self.errorAngle))
+<<<<<<< HEAD
         print("Angle target: " + str(angleTarget))
         print("Theta: " + str(self.msg_pose.theta ))
+=======
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
 
         if (self.errorAngle > 180):
             self.errorAngle = self.errorAngle - 360 
             
+<<<<<<< HEAD
         #self.errorDistance2 = math.hypot((abs(self.msg_pose.x)  - abs(self.msg_point.x)), (abs(self.msg_pose.y)  - abs(self.msg_point.y)))
         self.errorDistance = math.sqrt(pow(self.msg_point.x - self.msg_pose.x, 2) + pow(self.msg_point.y - self.msg_pose.y, 2))
         print("Error distance: " + str(self.errorDistance))
         #print("Error distance2: " + str(self.errorDistance2))
 
+=======
+        self.errorDistance = math.hypot((abs(self.msg_pose.x)  - abs(self.msg_point.x)), (abs(self.msg_pose.y)  - abs(self.msg_point.y)))
+        print("Error distance: " + str(self.errorDistance))
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
 
         ### PID DISTANCE ###
         self.proportionalDistance = self.errorDistance
@@ -98,25 +118,39 @@ class My_Publisher(Node):
         self.pidDistance = (self.kpDistance * self.proportionalDistance) + (self.kiDistance * self.integralDistance) + (self.kdDistance * self.derivativeDistance)
         print("PID distance: " + str(self.pidDistance))
 
+<<<<<<< HEAD
         if (self.pidDistance > 0.2) :
             self.msg_vel.linear.x = 0.2
             self.vel.publish(self.msg_vel) 
         elif (self.pidDistance < -0.2) :
             self.msg_vel.linear.x = -0.2
+=======
+        if (self.pidDistance > 0.3 or self.pidDistance < -0.3) :
+            self.msg_vel.linear.x = 0.3
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
             self.vel.publish(self.msg_vel) 
         else :
             self.msg_vel.linear.x = self.pidDistance
             self.vel.publish(self.msg_vel) 
         print("Linear vel: " + str(self.msg_vel.linear.x))
+<<<<<<< HEAD
        
         ### PID ANGLE ###
         self.proportionalAngle = self.errorAngle
         self.integralAngle = self.integralAngle + (self.errorAngle * self.timer_period_controller)
         self.derivativeAngle = (self.errorAngle - self.previousErrorDAngle) / self.timer_period_controller
+=======
+
+        ### PID ANGLE ###
+        self.proportionalAngle = self.errorAngle
+        self.integralAngle = self.integralAngle + (self.errorAngle * 0.1)
+        self.derivativeAngle = (self.errorAngle - self.previousErrorDAngle) / 0.1
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
         self.previousErrorDAngle = self.errorAngle
         self.pidAngle = (self.kpAngle * self.proportionalAngle) + (self.kiAngle * self.integralAngle) + (self.kdAngle * self.derivativeAngle)
         print("PID angle: " + str(self.pidAngle))
         
+<<<<<<< HEAD
         if (self.pidAngle > 0.1) :
             self.msg_vel.angular.z = 0.1
         elif (self.pidAngle < -0.1) :
@@ -125,6 +159,27 @@ class My_Publisher(Node):
             self.msg_vel.angular.z = self.pidAngle*1
             self.vel.publish(self.msg_vel)
         print("Angular vel: " + str(self.msg_vel.angular.z)) 
+=======
+        if (self.pidAngle > 0.3 or self.pidAngle < -0.3) :
+            self.msg_vel.angular.z = 0.3
+            self.vel.publish(self.msg_vel) 
+        else:
+            self.msg_vel.angular.z = self.pidAngle
+            self.vel.publish(self.msg_vel) 
+        print("Angular vel: " + str(self.msg_vel.angular.z)) 
+
+        ### SEND FLAG ###
+        if (self.msg_point.y != 0):
+            self.bandera = True 
+            
+        if ((self.errorAngle < 0.05 and self.errorDistance < 0.05) and self.bandera) :
+            self.flag_counter += 1
+            self.msg_flag.data = self.flag_counter
+            self.flag.publish(self.msg_flag)
+
+
+
+>>>>>>> b5bcad9c7094aa2c925a104a09f60edd0ba10e94
 
         ### SEND FLAG ###
         '''
